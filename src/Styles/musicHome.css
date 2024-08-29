@@ -1,0 +1,37 @@
+.whole-music-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-scroll-box{
+    margin-bottom: 100px;
+    width: 1300px;
+}
+
+.scroll-box-head{
+    text-align: center;
+}
+
+.scroll-imgbox{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    border-radius: 15px;
+}
+
+.scroll-imgbox::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-imgbox img{
+    height:220px;
+    width: 275px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 43, 0.145);
+    margin-right: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.348);
+}

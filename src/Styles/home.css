@@ -1,0 +1,26 @@
+.spotstar-home h1{
+    text-align: center;
+}
+
+.spot-total{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spot-home-div1{
+    background-color: rgba(255, 255, 255, 0.252);
+    border-radius: 15px;
+    width: 1000px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.spot-home-div1 img{
+    height: 300px;
+    border-radius: 15px;
+}
+
