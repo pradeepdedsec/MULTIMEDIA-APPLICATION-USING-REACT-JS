@@ -1,5 +1,5 @@
 import React from 'react';
-import "../Styles/style.css";
+import "../Styles/musicHome.css";
 import { useNavigate } from 'react-router-dom';
 
 const MusicHome = () => {
