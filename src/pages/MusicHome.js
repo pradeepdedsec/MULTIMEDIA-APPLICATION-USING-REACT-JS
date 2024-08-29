@@ -48,7 +48,7 @@ const MusicHome = () => {
                     </div>
                 </div>
 
-                <div className='total-scroll-box'>
+                {/*<div className='total-scroll-box'>
                     <h1 className='scroll-box-head'>{"Actors"}</h1>
                     <div className='scroll-imgbox'>
                     <img onClick={()=> goToMusicPage("Surya")} src={require("../media/images/MusicHome/Surya (2).jpg")} alt={"Actors"} />
@@ -57,7 +57,7 @@ const MusicHome = () => {
                     <img onClick={()=> goToMusicPage("Surya")} src={require("../media/images/MusicHome/Vikram.jpg")} alt={"Actors"} />
                     <img onClick={()=> goToMusicPage("Surya")} src={require("../media/images/MusicHome/nazriya.jpeg")} alt={"Actors"} />
                     </div>
-                </div>
+                </div>*/}
             </div>
         </div>
     );
