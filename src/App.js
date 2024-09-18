@@ -10,7 +10,6 @@ import NewPassword from './pages/NewPassword';
 import PasswordUpdated from './pages/PasswordUpdated';
 import MusicHome from './pages/MusicHome';
 import Music from './pages/Music';
-import MusicTest from './Components/MusicTest';
 import VideoHome from './pages/VideoHome';
 import VideoLanguageHome from './pages/VideoLanguageHome';
 import CelebrityMoviePage from './pages/CelebrityMoviePage';
@@ -35,7 +34,6 @@ function App() {
         <Route path="/MusicHome" element={<MusicHome/>}/ >
         <Route path="/Music" element={<Music/>}/ >
         <Route path="/Music/:tname" element={<Music/>}/ >
-        <Route path="/MusicTest/:name" element={<MusicTest/>}/ >
 
         <Route path="/VideoHome" element={<VideoHome/>}/ >
         <Route path="/VideoLanguageHome/:lang" element={<VideoLanguageHome/>}/ >
