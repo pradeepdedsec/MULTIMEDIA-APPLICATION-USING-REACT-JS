@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom';
 
 import { useNavigate } from 'react-router-dom';
 
-import DynamicLangaugePage from '../Components/DynamicLangaugePage'
 
 import DynamicImageBox from '../Components/DynamicImageBox';
 import Header from '../Components/Header';
@@ -16,7 +15,10 @@ const VideoLanguageHome = () => {
 
   const [currentLanguage,setCurrentLanguage]=useState([]);
 
-  const langMap=new Map();
+  
+  useEffect(()=>{
+
+    const langMap=new Map();
 
   langMap.set("Tamil",[
     {
@@ -124,7 +126,7 @@ const VideoLanguageHome = () => {
         ]
     }
   ]);
-  useEffect(()=>{
+
     setCurrentLanguage(langMap.get(lang));
     console.log(langMap.get(lang)[0].Genre)
   },[lang])

@@ -16,11 +16,13 @@ const Video = () => {
     link:"https://www.youtube.com/embed/AIjYJYf3yrw?si=yEug90BtM5uwo7WI"
   });
 
-  let movies=new Map();
+  
 
   
 
   useEffect(()=>{
+
+    const movies=new Map();
 
     movies.set("Aegan",{
       name:"Aegan",

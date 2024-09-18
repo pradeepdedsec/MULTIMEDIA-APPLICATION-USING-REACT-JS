@@ -1,23 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import '../Styles/home.css'
 import Header from '../Components/Header';
 
 const Home = () => {
-
-  // Create a new Map
-  const [userMap,setUserMap] = useState(new Map());
-
-  // Add some entries
-  userMap.set(1, 'John Doe');
-  userMap.set(2, 'Jane Smith');
-  userMap.set(3, 'Alice Johnson');
-
-  // Get value by key
-  const userId = 2;
-  const userName = userMap.get(userId);
-
-  console.log(userName); // Output: Jane Smith
 
   return (
     <>

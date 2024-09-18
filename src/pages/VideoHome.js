@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 import { useNavigate } from 'react-router-dom';
 
@@ -12,8 +12,7 @@ const VideoHome = () => {
   
   const navigate=useNavigate();
 
-  const [language,setlanguage]=useState("");
-  const[list,setList]=useState([
+  const list=[
 
     {
         Genre:"New Movies",
@@ -67,7 +66,7 @@ const VideoHome = () => {
   
       ]
   },
-  ]);  
+  ];  
 
   const goToPage=(name)=>{
     navigate(`/CelebrityMoviePage/${name}`);
@@ -77,7 +76,7 @@ const VideoHome = () => {
     <Header />
     <div className='total-video-home'>  
         <div className="select-container">
-            <select className="custom-select" value={language} onChange={(e)=> navigate(`/VideoLanguageHome/${e.target.value}`)}>
+            <select className="custom-select" onChange={(e)=> navigate(`/VideoLanguageHome/${e.target.value}`)}>
                 <option>Select-Language</option>
                 <option value="Tamil">Tamil</option>
                 <option value="English">English</option>

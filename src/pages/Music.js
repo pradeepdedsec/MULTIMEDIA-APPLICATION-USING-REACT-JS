@@ -9,7 +9,6 @@ const Music = () => {
 
     const {tname}=useParams();
 
-    const[name,setName]=useState("");
     const[currentActor,setCurrentActor]=useState({
       name:"Surya",
       imgPath:"MusicHome/Surya (2).jpg",
@@ -32,7 +31,12 @@ const Music = () => {
       ]
     });
 
-    const actormap=new Map();
+    
+    
+
+    useEffect(()=>{
+
+      const actormap=new Map();
 
     actormap.set("Surya",{
       name:"Surya",
@@ -362,10 +366,7 @@ const Music = () => {
         `lisa/Lisa Rap Lyrics in Shoong.mp3`
       ]
     });
-    
 
-    useEffect(()=>{
-      setName(tname || "");
       if(tname){
         setCurrentActor(actormap.get(tname));
       }
