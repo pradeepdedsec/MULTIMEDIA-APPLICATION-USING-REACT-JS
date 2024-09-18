@@ -3,6 +3,7 @@
 }
 
 .spot-total{
+    margin-top: 150px;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -10,7 +11,6 @@
 }
 
 .spot-home-div1{
-    background-color: rgba(255, 255, 255, 0.252);
     border-radius: 15px;
     width: 1000px;
     padding: 20px;

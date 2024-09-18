@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
+import Header from '../Components/Header';
 
 const Welcome = () => {
 
@@ -8,6 +9,7 @@ const Welcome = () => {
 
   return (
     <div>
+      <Header />
         <h1>Welcome to Spotstar</h1>
         <button onClick={()=>navigate("/Home")}>Go to Home Page</button>
     </div>

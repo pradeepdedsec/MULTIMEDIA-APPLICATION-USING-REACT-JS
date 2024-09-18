@@ -10,10 +10,16 @@ import NewPassword from './pages/NewPassword';
 import PasswordUpdated from './pages/PasswordUpdated';
 import MusicHome from './pages/MusicHome';
 import Music from './pages/Music';
+import MusicTest from './Components/MusicTest';
+import VideoHome from './pages/VideoHome';
+import VideoLanguageHome from './pages/VideoLanguageHome';
+import CelebrityMoviePage from './pages/CelebrityMoviePage';
+import Video from './pages/Video';
 
 function App() {
   return (
     <div className="App">
+      <img className='background' src={require("./media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
       <Routes>
         <Route path="/" element={<Login/>}/ >
         <Route path="/Home" element={<Home/>}/ >
@@ -29,6 +35,14 @@ function App() {
         <Route path="/MusicHome" element={<MusicHome/>}/ >
         <Route path="/Music" element={<Music/>}/ >
         <Route path="/Music/:tname" element={<Music/>}/ >
+        <Route path="/MusicTest/:name" element={<MusicTest/>}/ >
+
+        <Route path="/VideoHome" element={<VideoHome/>}/ >
+        <Route path="/VideoLanguageHome/:lang" element={<VideoLanguageHome/>}/ >
+
+        <Route path="/CelebrityMoviePage/:celeb" element={<CelebrityMoviePage/>}/ >
+
+        <Route path="/Video/:name" element={<Video/>}/ >
       </Routes>
     </div>
   );

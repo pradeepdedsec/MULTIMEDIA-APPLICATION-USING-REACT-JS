@@ -1,0 +1,33 @@
+.total-header-box{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.header-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1E294D;
+    height: 80px;
+    color: #A2E1F5;
+    font-size: 30px;
+}
+
+.navbar{
+    background-color: #A2E1F5;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+}
