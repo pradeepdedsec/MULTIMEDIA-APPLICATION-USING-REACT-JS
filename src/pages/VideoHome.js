@@ -33,10 +33,10 @@ const VideoHome = () => {
                 name:"Vikram",
                 path:"MusicHome/Vikram.jpg"
             },
-            {
+            /*{
                 name:"Nazriya",
                 path:"MusicHome/Nazriya.jpeg"
-            },
+            },*/
     
         ]
     },
