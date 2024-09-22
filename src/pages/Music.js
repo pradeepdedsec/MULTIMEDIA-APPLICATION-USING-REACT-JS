@@ -11,7 +11,7 @@ const Music = () => {
 
     const[currentActor,setCurrentActor]=useState({
       name:"Surya",
-      imgPath:"MusicHome/Surya.png",
+      imgPath:"Loading/Loading.gif",
       about:`Surya is a soulful artist with a rare gift for emotive and empathetic
                 "I think I'm good at knowing how people feel, how I feel, and being able to 
                 capture that," the Los Angeles-based singer-songwriter-actor shares. Her father 
