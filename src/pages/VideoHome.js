@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import { useNavigate } from 'react-router-dom';
 
@@ -9,33 +9,31 @@ import Header from '../Components/Header';
 
 const VideoHome = () => {
 
-  
-  const navigate=useNavigate();
 
-  const list=[
+  const[dynamicList,setDynamicList]=useState([
 
     {
         Genre:"New Movies",
         photos:[
             {
-                name:"Surya",
-                path:"MusicHome/Surya.png"
+                name:"AR_Rahman",
+                path:"Loading/Loading.gif"
             },
             {
-                name:"Samantha",
-                path:"MusicHome/Samantha.jfif"
+                name:"G.V.Prakash",
+                path:"Loading/Loading.gif"
             },
             {
-                name:"Vijay",
-                path:"MusicHome/Vijay.jpg"
+                name:"Aniruth",
+                path:"Loading/Loading.gif"
             },
             {
-                name:"Vikram",
-                path:"MusicHome/Vikram.jpg"
+                name:"VijayAntony",
+                path:"Loading/Loading.gif"
             },
             {
-                name:"Nazriya",
-                path:"MusicHome/Nazriya.jpg"
+                name:"YuvanShankarraja",
+                path:"Loading/Loading.gif"
             },
     
         ]
@@ -43,31 +41,92 @@ const VideoHome = () => {
     {
       Genre:"Upcoming Movies",
       photos:[
-          {
-              name:"Surya",
-              path:"MusicHome/Surya.png"
-          },
-          {
-              name:"Samantha",
-              path:"MusicHome/Samantha.jfif"
-          },
-          {
-              name:"Vijay",
-              path:"MusicHome/Vijay.jpg"
-          },
-          {
-              name:"Vikram",
-              path:"MusicHome/Vikram.jpg"
-          },
-          {
-              name:"Nazriya",
-              path:"MusicHome/Nazriya.jpg"
-          },
+        {
+            name:"AR_Rahman",
+            path:"Loading/Loading.gif"
+        },
+        {
+            name:"G.V.Prakash",
+            path:"Loading/Loading.gif"
+        },
+        {
+            name:"Aniruth",
+            path:"Loading/Loading.gif"
+        },
+        {
+            name:"VijayAntony",
+            path:"Loading/Loading.gif"
+        },
+        {
+            name:"YuvanShankarraja",
+            path:"Loading/Loading.gif"
+        },
   
       ]
-  },
-  ];  
+  }
+  ]);
 
+  
+  const navigate=useNavigate();
+  
+
+  useEffect(()=>{
+    setDynamicList([
+
+        {
+            Genre:"New Movies",
+            photos:[
+                {
+                    name:"Surya",
+                    path:"MusicHome/Surya.png"
+                },
+                {
+                    name:"Samantha",
+                    path:"MusicHome/Samantha.jfif"
+                },
+                {
+                    name:"Vijay",
+                    path:"MusicHome/Vijay.jpg"
+                },
+                {
+                    name:"Vikram",
+                    path:"MusicHome/Vikram.jpg"
+                },
+                {
+                    name:"Nazriya",
+                    path:"MusicHome/Nazriya.jpg"
+                },
+        
+            ]
+        },
+        {
+          Genre:"Upcoming Movies",
+          photos:[
+              {
+                  name:"Surya",
+                  path:"MusicHome/Surya.png"
+              },
+              {
+                  name:"Samantha",
+                  path:"MusicHome/Samantha.jfif"
+              },
+              {
+                  name:"Vijay",
+                  path:"MusicHome/Vijay.jpg"
+              },
+              {
+                  name:"Vikram",
+                  path:"MusicHome/Vikram.jpg"
+              },
+              {
+                  name:"Nazriya",
+                  path:"MusicHome/Nazriya.jpg"
+              },
+      
+          ]
+      },
+      ])
+  },[])
   const goToPage=(name)=>{
     navigate(`/CelebrityMoviePage/${name}`);
 }
@@ -84,7 +143,7 @@ const VideoHome = () => {
             </select>
         </div>
             
-        <DynamicImageBox list={list} goToPage={goToPage} />
+        <DynamicImageBox list={dynamicList} goToPage={goToPage} />
     </div>
     </>
     
