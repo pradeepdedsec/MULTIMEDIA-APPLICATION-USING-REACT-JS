@@ -11,7 +11,7 @@ const Video = () => {
 
   const[currentMovie,setCurrentMovie]=useState({
     name:"Aegan",
-    path:"video/Tamil/Actors/Ajith/movies/Aegan.jpg",
+    path:"Loading/Loading.gif",
     desc:`Aegan (2008) is a Tamil-language action-comedy film directed by Raju Sundaram, starring Ajith Kumar, Nayanthara, and Navdeep. The story revolves around a police officer, played by Ajith Kumar, who is assigned a mission to bring down a notorious gangster while juggling his personal life and family responsibilities. The film blends action, comedy, and romance, with Ajith Kumar's charismatic performance being a highlight. Known for its energetic music by Yuvan Shankar Raja and its engaging plot, Aegan offers a mix of thrilling sequences and light-hearted moments.`,
     link:"https://www.youtube.com/embed/AIjYJYf3yrw?si=yEug90BtM5uwo7WI"
   });

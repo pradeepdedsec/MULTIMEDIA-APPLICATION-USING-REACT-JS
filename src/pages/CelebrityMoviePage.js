@@ -17,24 +17,24 @@ const CelebrityMoviePage = () => {
 
   const[celebrity,setCelebrity]=useState({
       name:"Ajith",
-      path:"video/Tamil/Actors/Ajith/Actorimg/Ajith.webp",
+      path:"Loading/Loading.gif",
       about:`Ajith Kumar, affectionately known as "Thala" by his legion of fans, is one of the most admired and versatile actors in Tamil cinema. Over a career spanning more than three decades, he has carved out a unique space for himself through his ability to perform a wide variety of roles with ease, whether it be romantic, action, or drama. Ajith began his career in the 1990s, initially gaining recognition for his romantic roles in films like Kadhal Kottai and Aasai. These early films showcased his charming on-screen presence, which made him a favorite among younger audiences. However, it was his shift to action-packed, mass-appeal roles in the 2000s that truly redefined his career, with films such as Mankatha, Veeram, Vedalam, and Viswasam becoming blockbuster hits and solidifying his status as a leading action hero. Ajith is also highly regarded for his nuanced performances in films like Vaali, where he portrayed dual roles, and Mugavaree, where he played a struggling musician, demonstrating his impressive range as an actor.In addition to his flourishing acting career, Ajith is a professional racer with a deep passion for motorsports. He has competed in events such as Formula 2 and Formula BMW Asia, earning accolades for his racing skills. His commitment to both acting and racing is a testament to his multifaceted talents and dedication. Off-screen, Ajith maintains a reputation for being extremely private, shying away from public and media attention. He rarely participates in promotional events or social gatherings, preferring to keep his personal life out of the limelight. Despite his reserved nature, Ajith's philanthropic work is well-known, though he often carries out these charitable activities quietly, without much media coverage. His humility and grounded personality have earned him immense respect within the film industry, as well as deep affection from his fans. Ajith Kumar continues to be an influential figure in Tamil cinema, with each new release eagerly anticipated by millions.`,
       movies:[
         {
           name:"Aegan",
-          path:"video/Tamil/Actors/Ajith/movies/Aegan.jpg",
+          path:"Loading/Loading.gif",
         },
         {
           name:"Billa",
-          path:"video/Tamil/Actors/Ajith/movies/Billa.webp"
+          path:"Loading/Loading.gif"
         },
         {
           name:"Mankatha",
-          path:"video/Tamil/Actors/Ajith/movies/Mankatha.jpg"
+          path:"Loading/Loading.gif"
         },
         {
           name:"Thunivu",
-          path:"video/Tamil/Actors/Ajith/movies/Thunivu.jpg"
+          path:"Loading/Loading.gif"
         }
       ]
   });
