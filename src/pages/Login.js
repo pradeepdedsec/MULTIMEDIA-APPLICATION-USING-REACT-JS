@@ -13,15 +13,16 @@ const Login = () => {
         <h1>Spotstar Login</h1>
         <div className='login-input-box'>
           <input type="text" placeholder='Username' />
+
           <div>
             <input type="password" placeholder='Password' />
             <Link to="/ForgotOtpSend"><p>forgotpassword</p></Link>
           </div>
           
-          <button onClick={()=> navigate("/Home")}>Login</button>
+          <button className='btn' style={{marginTop:"10px",marginBottom:"10px"}} onClick={()=> navigate("/Home")}>Login</button>
 
-          <p>Are you new user<Link to="/SignUp">Sign up</Link></p>
-      </div>
+          <p>Are you new user <Link to="/SignUp"><b>Sign up</b></Link></p>
+        </div>
       </div>
     </div>
   )

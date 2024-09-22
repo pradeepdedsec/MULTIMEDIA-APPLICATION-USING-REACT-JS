@@ -18,11 +18,11 @@ const MusicHome = () => {
             photos:[
                 {
                     name:"Surya",
-                    path:"MusicHome/Surya.jpg"
+                    path:"MusicHome/Surya.png"
                 },
                 {
                     name:"Samantha",
-                    path:"MusicHome/Samantha.jpg"
+                    path:"MusicHome/Samantha.jfif"
                 },
                 {
                     name:"Vijay",
@@ -32,10 +32,10 @@ const MusicHome = () => {
                     name:"Vikram",
                     path:"MusicHome/Vikram.jpg"
                 },
-                /*{
+                {
                     name:"Nazriya",
                     path:"MusicHome/Nazriya.jpg"
-                },*/
+                },
         
             ]
         },
@@ -57,7 +57,7 @@ const MusicHome = () => {
                 },
                 {
                     name:"VijayAntony",
-                    path:"MusicHome/VijayAntony.jpg"
+                    path:"MusicHome/VijayAntony.jfif"
                 },
                 {
                     name:"YuvanShankarraja",

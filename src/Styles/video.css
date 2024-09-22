@@ -36,9 +36,10 @@
 
 .movie-desc{
     width: 900px;
-    height: 150px;
+    height: 130px;
     border-radius: 15px;
-    margin-bottom: 50px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .movie-desc p{
@@ -50,13 +51,11 @@
 
 
 
-.video-person-page{
-}
+
 
 .movie-img{
     width: fit-content;
 }
 
-.movie-yt{
-}
+
 

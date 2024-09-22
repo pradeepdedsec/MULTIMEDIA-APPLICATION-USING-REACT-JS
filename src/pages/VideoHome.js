@@ -19,11 +19,11 @@ const VideoHome = () => {
         photos:[
             {
                 name:"Surya",
-                path:"MusicHome/Surya.jpg"
+                path:"MusicHome/Surya.png"
             },
             {
                 name:"Samantha",
-                path:"MusicHome/Samantha.jpg"
+                path:"MusicHome/Samantha.jfif"
             },
             {
                 name:"Vijay",
@@ -33,10 +33,10 @@ const VideoHome = () => {
                 name:"Vikram",
                 path:"MusicHome/Vikram.jpg"
             },
-            /*{
+            {
                 name:"Nazriya",
-                path:"MusicHome/Nazriya.jpeg"
-            },*/
+                path:"MusicHome/Nazriya.jpg"
+            },
     
         ]
     },
@@ -45,11 +45,11 @@ const VideoHome = () => {
       photos:[
           {
               name:"Surya",
-              path:"MusicHome/Surya.jpg"
+              path:"MusicHome/Surya.png"
           },
           {
               name:"Samantha",
-              path:"MusicHome/Samantha.jpg"
+              path:"MusicHome/Samantha.jfif"
           },
           {
               name:"Vijay",
@@ -59,10 +59,10 @@ const VideoHome = () => {
               name:"Vikram",
               path:"MusicHome/Vikram.jpg"
           },
-          /*{
+          {
               name:"Nazriya",
-              path:"MusicHome/Nazriya.jpeg"
-          },*/
+              path:"MusicHome/Nazriya.jpg"
+          },
   
       ]
   },

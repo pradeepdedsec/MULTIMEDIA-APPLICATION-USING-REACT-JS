@@ -4,12 +4,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1E294D;
 }
 
 .center-login-box{
-    background-color: rgba(255, 228, 196, 0.393);
+    background-color: #A2E1F5;
     padding: 30px;
-    border-radius: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .center-login-box h1{
@@ -22,7 +27,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.321);
     padding: 15px;
     border-radius: 25px;
 }
@@ -31,10 +35,25 @@
     width: 280px;
     margin: 10px;
     height: 35px;
-    padding-left: 10px;
-    border-radius: 15px;
+    padding: 2px 0px 2px 20px;
+    border-radius: 10px;
     border: none;
+    background-color: #1E294D;
+    color: #A2E1F5;
 }
+
+/* For Chrome, Safari, Edge, and Opera */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 
 .login-input-box input:focus{
     border: none;
@@ -49,12 +68,33 @@
     margin-right: 20px;
 }
 
-.login-input-box button{
+.login-input-box .btn{
     border: none;
-    height: 45px;
-    width: 100px;
     font-size: 20px;
-    border-radius: 15px;
     cursor: pointer;
-    background-color: aliceblue;
+}
+
+.btn2{
+    font-size: 16px;
+    border-style: none;
+}
+
+.btn,.btn2{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1E294D;
+    color: #A2E1F5;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button{
+    background-color: white;
+    color: black;
+}
+
+input:focus{
+    outline: none;
 }

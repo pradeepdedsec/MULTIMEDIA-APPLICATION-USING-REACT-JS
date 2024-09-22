@@ -6,15 +6,16 @@
     display: flex;
     justify-content: flex-end; /* Aligns the select element to the left */
     padding: 10px;
+    margin-right: 50px;
 }
 
 .custom-select {
-    background-color: #ffffff; /* White background */
+    background-color: #1E294D;
+    color: #A2E1F5;
     border: 2px solid #007bff; /* Blue border */
     border-radius: 8px; /* More rounded corners */
     padding: 12px 16px; /* Larger padding for a bigger size */
     font-size: 18px; /* Larger font size */
-    color: #333; /* Dark text color for readability */
     transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for border and shadow */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for a subtle 3D effect */
 }

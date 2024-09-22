@@ -52,7 +52,7 @@ const VideoLanguageHome = () => {
         photos:[
             {
                 name:"Loki",
-                path:"video/Tamil/Directors/loki/Diectorimg/Loki.jpg"
+                path:"video/Tamil/Directors/loki/Directorimg/Loki.jpg"
             },
             
             {
@@ -122,6 +122,111 @@ const VideoLanguageHome = () => {
             {
                 name:"Vikram-Vedha",
                 path:"video/Tamil/Action/Vikram-Vedha.jpg"
+            }
+        ]
+    }
+  ]);
+
+
+  langMap.set("English",[
+    {
+        Genre:"Actors",
+        photos:[
+            {
+                name:"BradPitt",
+                path:"video/English/Actors/BradPitt/Actorimg/BradPitt.jpg"
+            },
+            {
+                name:"Jason",
+                path:"video/English/Actors/Jason/Actorimg/Jason.jpg"
+            },
+            {
+                name:"JhonnyDepp",
+                path:"video/English/Actors/JhonnyDepp/Actorimg/Jhonny.jpg"
+            },
+            {
+                name:"RobertDowney",
+                path:"video/English/Actors/RobertDowney/Actorimg/RobertDowney.jpg"
+            },
+            {
+                name:"WillSmith",
+                path:"video/English/Actors/WillSmith/Actorimg/WillSmith.jpg"
+            },
+        ]
+    },
+    {
+        Genre:"Directors",
+        photos:[
+            {
+                name:"ChadStahelski",
+                path:"video/English/Directors/ChadStahelski/Directorimg/ChadStahelski.jpg"
+            },
+            
+            {
+                name:"ChristopherNolan",
+                path:"video/English/Directors/ChristopherNolan/Directorimg/ChristopherNolan.jpg"
+            },
+            {
+                name:"JamesCameron",
+                path:"video/English/Directors/JamesCameron/Directorimg/JamesCameron.jpg"
+            },
+            {
+                name:"JamesWan",
+                path:"video/English/Directors/JamesWan/Directorimg/JamesWan.jpg"
+            },
+            {
+                name:"Stephen",
+                path:"video/English/Directors/Stephen/Directorimg/Stephen.jpg"
+            }
+        ]
+    },
+    {
+        Genre:"New Release",
+        photos:[
+            {
+                name:"DeadpoolandWolverine",
+                path:"video/English/New Release/DeadpoolandWolverine.jpg"
+            },
+            {
+                name:"DoctorDoom",
+                path:"video/English/Actors/RobertDowney/movies/DoctorDoom.jpg"
+            },
+            {
+                name:"Worldwarz",
+                path:"video/English/Actors/BradPitt/movies/Worldwarz.jpg"
+            },
+            {
+                name:"FastandFurious",
+                path:"video/English/Actors/Jason/movies/FastandFurious.jpg"
+            },
+            {
+                name:"POC",
+                path:"video/English/Actors/JhonnyDepp/movies/POC.jfif"
+            },
+        ]
+    },
+    {
+        Genre:"Action",
+        photos:[
+            {
+                name:"Seven",
+                path:"video/English/Actors/BradPitt/movies/Seven.jpg"
+            },
+            {
+                name:"Expandables",
+                path:"video/English/Actors/Jason/movies/Expandables.jpg"
+            },
+            {
+                name:"Edward",
+                path:"video/English/Actors/JhonnyDepp/movies/Edward.jfif"
+            },
+            {
+                name:"Ironman",
+                path:"video/English/Actors/RobertDowney/movies/Ironman.jfif"
+            },
+            {
+                name:"MIB",
+                path:"video/English/Actors/WillSmith/movies/MIB.jpg"
             }
         ]
     }
