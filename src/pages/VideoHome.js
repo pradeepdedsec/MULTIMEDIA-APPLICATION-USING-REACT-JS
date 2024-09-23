@@ -139,7 +139,7 @@ const VideoHome = () => {
                 <option>Select-Language</option>
                 <option value="Tamil">Tamil</option>
                 <option value="English">English</option>
-                <option value="Telugu">Telugu</option>
+                <option value="Malayalam">Malayalam</option>
             </select>
         </div>
             

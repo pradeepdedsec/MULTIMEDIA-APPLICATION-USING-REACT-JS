@@ -232,6 +232,114 @@ const VideoLanguageHome = () => {
     }
   ]);
 
+
+  langMap.set("Malayalam",[
+    {
+        Genre:"Actors",
+        photos:[
+            {
+                name:"FahadhFaasil",
+                path:"video/Malayalam/Actors/FahadhFaasil/Actorimg/FahadhFaasil.jpg"
+            },
+            
+            {
+                name:"Mammootty",
+                path:"video/Malayalam/Actors/Mammootty/Actorimg/Mammootty.jpg"
+            },
+            {
+                name:"Mohanlal",
+                path:"video/Malayalam/Actors/Mohanlal/Actorimg/Mohanlal.jpg"
+            },
+            {
+                name:"NivinPauly",
+                path:"video/Malayalam/Actors/NivinPauly/Actorimg/NivinPauly.jpg"
+            },
+            {
+                name:"SaiPallavi",
+                path:"video/Malayalam/Actors/SaiPallavi/Actorimg/SaiPallavi.jpg"
+            }
+        ]
+    },
+    {
+        Genre:"Directors",
+        photos:[
+            {
+                name:"BasilJoseph",
+                path:"video/Malayalam/Directors/BasilJoseph/Directorimg/BasilJoseph.jpg"
+            },
+            
+            {
+                name:"Blessy",
+                path:"video/Malayalam/Directors/Blessy/Directorimg/Blessy.jpg"
+            },
+            {
+                name:"Joshiy",
+                path:"video/Malayalam/Directors/Joshiy/Directorimg/Joshiy.jpg"
+            },
+            {
+                name:"Ranjith",
+                path:"video/Malayalam/Directors/Ranjith/Directorimg/Ranjith.jpg"
+            },
+            {
+                name:"SantoshSivan",
+                path:"video/Malayalam/Directors/SantoshSivan/Directorimg/SantoshSivan.jpg"
+            }
+        ]
+    },
+    {
+        Genre:"New Release",
+        photos:[
+            {
+                name:"Garudan",
+                path:"video/Tamil/New Release/garudan.jpeg"
+            },
+            
+            {
+                name:"Goat",
+                path:"video/Tamil/New Release/goat.jpeg"
+            },
+            {
+                name:"Indian2",
+                path:"video/Tamil/New Release/indian2.jpg"
+            },
+            {
+                name:"Maharaja",
+                path:"video/Tamil/New Release/maharaja.jpg"
+            },
+            {
+                name:"Star",
+                path:"video/Tamil/New Release/star.jpg"
+            }
+        ]
+    },
+    {
+        Genre:"Action",
+        photos:[
+            {
+                name:"KGF",
+                path:"video/Tamil/Action/KGF.jpg"
+            },
+            
+            {
+                name:"Maari2",
+                path:"video/Tamil/Action/Maari2.jpg"
+            },
+            {
+                name:"Mahaan",
+                path:"video/Tamil/Action/Mahaan.jpg"
+            },
+            {
+                name:"Vikram",
+                path:"video/Tamil/Action/Vikram.jpg"
+            },
+            {
+                name:"Vikram-Vedha",
+                path:"video/Tamil/Action/Vikram-Vedha.jpg"
+            }
+        ]
+    }
+  ]);
+
     setCurrentLanguage(langMap.get(lang));
     console.log(langMap.get(lang)[0].Genre)
   },[lang])

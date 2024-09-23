@@ -887,39 +887,32 @@ const Video = () => {
 
 
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Aavesham",{
+      name:"Aavesham",
+      path:"video/Malayalam/Actors/FahadhFaasil/movies/Aavesham.jpg",
+      desc:`Aavesham (1999) is a Telugu-language film directed by K. Raghavendra Rao, featuring Nandamuri Balakrishna in the lead role. The story revolves around themes of love, family, and vengeance, showcasing Balakrishna as a man who must confront personal and societal challenges. The film combines drama with action elements, highlighting the protagonist's journey and the obstacles he faces. With engaging performances and a compelling narrative, Aavesham resonates with audiences, particularly fans of Balakrishna's work. The film is noted for its emotional depth and memorable music, characteristic of the era's Telugu cinema.`,
+      link:"https://www.youtube.com/embed/OsMqr3556F8?si=CcLtYscQJz6hCkCA"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Amen",{
+      name:"Amen",
+      path:"video/Malayalam/Actors/FahadhFaasil/movies/Amen.jpg",
+      desc:`Amen (2013) is a Malayalam-language film directed by Priyadarshan. The story follows the life of a young man named Kunjiraman (played by Mohanlal), who is a passionate church musician and has aspirations of becoming a priest. Set against the backdrop of a rural village, the film explores themes of faith, love, and community. Kunjiraman's journey intertwines with that of a strong-willed woman named Veni, leading to a blend of romance and spirituality. Known for its engaging storytelling, vibrant music, and picturesque cinematography, Amen received positive reviews and is celebrated for its heartfelt performances and its exploration of cultural and religious dynamics within the community. The film's soundtrack, composed by M. G. Soman, further enhanced its appeal, contributing to its success in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/7tXL-5TdiEE?si=Ut4kNyPLxGUETywA"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("NjanPrakashan",{
+      name:"NjanPrakashan",
+      path:"video/Malayalam/Actors/FahadhFaasil/movies/NjanPrakashan.jpg",
+      desc:`Njan Prakashan (2018) is a Malayalam comedy-drama film directed by Sathyan Anthikad, featuring Fahadh Faasil in the lead role as Prakashan, a carefree and aimless young man. The story follows Prakashan's struggles with his identity and societal expectations as he attempts to find a purpose in life. With a humorous yet poignant narrative, the film explores themes of ambition, love, and the quest for self-discovery. Prakashan's interactions with family and friends, as well as his eventual decision to change his approach to life, drive the storyline. The film received positive reviews for its relatable characters, witty dialogue, and Fahadh Faasil's engaging performance, making it a memorable entry in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/PjCb4Jo4oVY?si=rKFNyO8w3eeH-xFM"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("OruIndianPranayakadha",{
+      name:"OruIndianPranayakadha",
+      path:"video/Malayalam/Actors/FahadhFaasil/movies/OruIndianPranayakadha.jpg",
+      desc:`Oru Indian Pranayakadha (2013) is a Malayalam romantic comedy directed by Lijo Jose Pellissery, featuring Fahadh Faasil and Amala Paul in lead roles. The film follows the story of an aspiring politician, Prakashan (Fahadh), who becomes romantically involved with a strong-willed woman, played by Amala. As their relationship develops, they navigate various societal and personal challenges, highlighting themes of love, ambition, and the complexities of modern relationships. Known for its witty dialogue and engaging performances, the film blends humor with social commentary, making it both entertaining and thought-provoking. The cinematography and music further enhance the film's charm, contributing to its positive reception in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/OytK4yGAafw?si=BMGUZQhXWwvpo65w"
     });
 
 
@@ -933,86 +926,32 @@ const Video = () => {
 
 
 
-
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Kanalkkattu",{
+      name:"Kanalkkattu",
+      path:"video/Malayalam/Actors/Mammootty/movies/Kanalkkattu.jpg",
+      desc:`Kanalkkattu (1991) is a Malayalam film directed by K. Madhu, featuring Mohanlal in the lead role. The story revolves around the lives of two friends, played by Mohanlal and Suresh Gopi, who become involved in a series of events that lead to unexpected challenges and moral dilemmas. Set against the backdrop of a rural village, the film explores themes of friendship, love, and social issues, intertwining humor and drama. Known for its engaging screenplay and strong performances, Kanalkkattu showcases Mohanlal's versatility and has garnered a cult following among fans of Malayalam cinema. The film also features a memorable soundtrack that complements its narrative.`,
+      link:"https://www.youtube.com/embed/gRtnOs875GE?si=JiBeYluHUqL7Q619"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Thaniyavartanam",{
+      name:"Thaniyavartanam",
+      path:"video/Malayalam/Actors/Mammootty/movies/Thaniyavartanam.jpg",
+      desc:`Thaniyavartanam (1987) is a Malayalam drama film directed by Satyajit Ray and written by renowned filmmaker Adoor Gopalakrishnan. The story centers around the life of a man named Bhaskara Patelar (played by Mammootty), who is an educated and progressive thinker living in a traditional society. As he navigates the challenges posed by societal norms and personal relationships, the film delves into themes of individualism, cultural identity, and the struggle for self-acceptance. Notable for its realistic portrayal of characters and thought-provoking narrative, Thaniyavartanam received critical acclaim and is considered a classic in Malayalam cinema, highlighting the complexities of human emotions and societal expectations.`,
+      link:"https://www.youtube.com/embed/mlnqsoAQ9Zc?si=E9pQDtttRJoTuIUQ"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Utharam",{
+      name:"Utharam",
+      path:"video/Malayalam/Actors/Mammootty/movies/Utharam.jpg",
+      desc:`Utharam (1989) is a Malayalam mystery thriller directed by K. G. George, featuring prominent actors like Mohanlal and Shobhana. The film revolves around the investigation of a murder that takes place in a seemingly idyllic setting, leading to a complex web of intrigue and deception. Mohanlal plays the role of an inspector, tasked with unraveling the truth behind the crime, while Shobhana portrays a key character intertwined with the events. Known for its intelligent screenplay and strong performances, Utharam explores themes of morality, justice, and the human psyche. The film received critical acclaim for its engaging plot and direction, solidifying its status as a significant entry in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/Eder_lgKjGk?si=AdaB9bS2FhJPHw9C"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-
-
-
-
-
-
-
-
-
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Yavanika",{
+      name:"Yavanika",
+      path:"video/Malayalam/Actors/Mammootty/movies/Yavanika.jpg",
+      desc:`Yavanika (1982) is a Malayalam film directed by G. Aravindan, featuring prominent actors like Mohanlal and Ratheesh. The story revolves around the world of theater, focusing on a traveling theater troupe and the mysteries that unfold during their journey. When a member of the troupe goes missing, the film delves into the dynamics among the characters, exploring themes of ambition, jealousy, and the intricacies of artistic life. Known for its rich cinematography and strong performances, Yavanika received critical acclaim for its storytelling and direction, highlighting the struggles and passions of those involved in the performing arts. The film is considered a classic in Malayalam cinema, praised for its nuanced character portrayals and profound commentary on human relationships.`,
+      link:"https://www.youtube.com/embed/GQctaAFMULY?si=jlhyoK0iSGX96NPl"
     });
 
 
@@ -1026,39 +965,32 @@ const Video = () => {
 
 
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Drishyam",{
+      name:"Drishyam",
+      path:"video/Malayalam/Actors/Mohanlal/movies/Drishyam.jpg",
+      desc:`Drishyam (2013) is a critically acclaimed Malayalam thriller directed by Jeethu Joseph, featuring Mohanlal in the lead role as Georgekutty, a cable TV operator. The film follows Georgekutty's desperate attempts to protect his family after they become embroiled in a crime. When his daughter accidentally kills a man, Georgekutty devises an elaborate plan to cover up the incident, showcasing his resourcefulness and quick thinking. As the investigation unfolds, the film explores themes of family, morality, and the lengths one would go to protect loved ones. Drishyam received widespread acclaim for its gripping narrative, strong performances, and clever twists, leading to several remakes in various languages, solidifying its place as a landmark film in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/AuuX2j14NBg?si=feKQ0OqkGPwWTRTa"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Lucifer",{
+      name:"Lucifer",
+      path:"video/Malayalam/Actors/Mohanlal/movies/Lucifer.jpg",
+      desc:`Lucifer (2019) is a Malayalam action drama film directed by Prithviraj Sukumaran, featuring Mohanlal in the lead role as Stephen Nedumbally, a powerful and charismatic figure who returns to India after the death of his political leader and mentor. The film revolves around the ensuing power struggles within the political landscape and Stephen's journey to navigate these challenges while confronting his past. Known for its stylish presentation, intense action sequences, and strong performances, Lucifer explores themes of loyalty, betrayal, and the quest for justice. The film became a massive box office success and received praise for its engaging storyline and Mohanlal's commanding performance, solidifying its place in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/x1-Ya0NZQso?si=YIGY_N79Kskin3bs"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Manichithrathazhu",{
+      name:"Manichithrathazhu",
+      path:"video/Malayalam/Actors/Mohanlal/movies/Manichithrathazhu.jpg",
+      desc:`Manichitrathazhu (1993) is a highly acclaimed Malayalam psychological horror film directed by Fazil, featuring Mohanlal, Shobana, and Suresh Gopi. The story revolves around a young couple, Ganga (Shobana) and Nakulan (Mohanlal), who move into an ancestral home filled with secrets. As Ganga begins to experience disturbing hallucinations related to the legend of a vengeful spirit, the film explores themes of mental illness, trauma, and the supernatural. Mohanlal's portrayal of the character Dr. Sunny, who investigates Ganga's condition, is particularly notable. The film is renowned for its compelling narrative, strong performances, and memorable music, and it has left a lasting impact on Malayalam cinema, inspiring remakes and adaptations in various languages. It is often regarded as a classic in the horror genre.`,
+      link:"https://www.youtube.com/embed/D5SSyk_jaSE?si=1i_UGql9GgsVgayn"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
-
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+    movies.set("Neru",{
+      name:"Neru",
+      path:"video/Malayalam/Actors/Mohanlal/movies/Neru.jpg",
+      desc:`Neru (2023) is a Malayalam film directed by V. K. Prakash. The film revolves around the themes of love and the challenges faced by young couples in modern society. It delves into the complexities of relationships and the societal pressures that influence personal choices. The narrative explores the journey of the protagonists as they navigate their emotions and confront various obstacles in their path to love. Known for its relatable characters and contemporary storytelling, Neru aims to resonate with the audience through its exploration of modern romantic dynamics. The film features a talented cast and showcases engaging performances that contribute to its overall appeal.`,
+      link:"https://www.youtube.com/embed/abuLOH7xs8I?si=Te53UU1-Pf50ImQX"
     });
 
 
@@ -1071,40 +1003,335 @@ const Video = () => {
 
 
 
+
+
+
+
+    movies.set("ActionHeroBiju",{
+      name:"ActionHeroBiju",
+      path:"video/Malayalam/Actors/NivinPauly/movies/ActionHeroBiju.jpg",
+      desc:`Action Hero Biju (2016) is a Malayalam action-comedy film directed by Abrid Shine, featuring Nivin Pauly in the titular role. The story follows Biju, a dedicated and brave police officer, as he navigates various challenges while on duty. The film presents a day in his life, showcasing different cases he handles, including crime, social issues, and personal conflicts. With a mix of humor, action, and drama, Action Hero Biju highlights the realities of police work while providing social commentary on contemporary issues. The film received positive reviews for its engaging narrative, Nivin Pauly's charismatic performance, and its blend of genres, making it a notable entry in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/bJgV9eC0GJE?si=xIrPEfpqCWJfPf6j"
+    });
+
+    movies.set("Neram",{
+      name:"Neram",
+      path:"video/Malayalam/Actors/NivinPauly/movies/Neram.jpg",
+      desc:`Neram (2013) is a Malayalam-Tamil bilingual thriller film directed by Alphonse Puthren, featuring Nivin Pauly and Nazriya Nazim in the lead roles. The story revolves around Arjun (Nivin), a young man who finds himself in a series of misadventures over the course of a single day, as he struggles to repay a loan before facing dire consequences. The film combines elements of romance, comedy, and suspense, capturing the unpredictability of life. Notable for its innovative storytelling and unique editing style, Neram received acclaim for its engaging narrative and the chemistry between the leads. The film’s soundtrack, composed by Ankit Menon, also contributed to its popularity, making it a standout film in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/xNxuLO9F8rA?si=YYjX2NUfGaCIZKvO"
+    });
+
+    movies.set("Premam",{
+      name:"Premam",
+      path:"video/Malayalam/Actors/NivinPauly/movies/Premam.jpg",
+      desc:`Premam (2015) is a romantic comedy-drama film directed by Alphonse Puthren, featuring Nivin Pauly, Sai Pallavi, and Madonna Sebastian. The story follows George (Nivin Pauly) through different stages of his life as he experiences love and heartbreak. Divided into three segments, it showcases his romantic interests during his school, college, and adulthood, highlighting the innocence and complexity of young love. The film is celebrated for its relatable characters, humor, and memorable music, with songs that became instant hits. Premam received widespread critical acclaim for its direction, performances, and engaging narrative, establishing itself as a cult classic in Malayalam cinema and significantly boosting the careers of its cast.`,
+      link:"https://www.youtube.com/embed/pbgvTikmIMk?si=8OahLeuSex9YGnUl"
+    });
+
+    movies.set("ThattathinMarayathu",{
+      name:"ThattathinMarayathu",
+      path:"video/Malayalam/Actors/NivinPauly/movies/ThattathinMarayathu.jfif",
+      desc:`Thattathin Marayathu (2012) is a Malayalam romantic comedy film directed by Vineeth Sreenivasan, featuring Nivin Pauly and Isha Talwar in the lead roles. The story revolves around the romance between a Hindu boy, Vinod (Nivin), and a Muslim girl, Aisha (Isha), set against the backdrop of societal and familial expectations. The film explores themes of love, cultural differences, and the challenges faced by interfaith couples. Known for its charming narrative, witty dialogue, and memorable music, Thattathin Marayathu received positive reviews and resonated with audiences for its relatable characters and lighthearted storytelling, making it a significant entry in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/zITXHmHaaGw?si=un1K8ZvncoVX33zI"
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+    movies.set("Fidaa",{
+      name:"Fidaa",
+      path:"video/Malayalam/Actors/SaiPallavi/movies/Fidaa.jpg",
+      desc:`Fidaa (2017) is a Telugu romantic drama film directed by Sekhar Kammula, featuring Varun Tej and Sai Pallavi in the lead roles. The story follows the romance between Bhuvan (Varun), a young NRI, and Fidaa (Sai Pallavi), a spirited village girl. Set against the backdrop of the picturesque rural landscapes of Telangana, the film beautifully captures the cultural nuances and emotional journey of the characters as they navigate their love story amidst family expectations and societal norms. Sai Pallavi's performance, along with the film's engaging narrative and memorable music, received widespread acclaim, making Fidaa a significant success at the box office and a favorite among audiences for its refreshing take on romance.`,
+      link:"https://www.youtube.com/embed/9stDegqm9pQ?si=65bcNsk2s_yC_YlE"
+    });
+
+    movies.set("Gargi",{
+      name:"Gargi",
+      path:"video/Malayalam/Actors/SaiPallavi/movies/Gargi.jpg",
+      desc:`Gargi (2022) is a Tamil-language legal drama film directed by G. Baabitha, featuring Sai Pallavi in the lead role. The story revolves around Gargi, a fiercely determined woman who fights for justice after her father is accused of a heinous crime. As she navigates the complexities of the legal system and societal pressures, the film explores themes of family, resilience, and the quest for truth. Sai Pallavi's powerful performance is a highlight, bringing depth to her character's emotional journey. The film is noted for its gripping narrative and strong supporting cast, resonating with audiences for its compelling storytelling and social commentary.`,
+      link:"https://www.youtube.com/embed/4_73N1iGkCU?si=3un50bUo7jtQnK54"
+    });
+
+    movies.set("LoveStory",{
+      name:"LoveStory",
+      path:"video/Malayalam/Actors/SaiPallavi/movies/LoveStory.jpg",
+      desc:`Love Story (2021) is a Telugu romantic drama film directed by Sekhar Kammula, starring Naga Chaitanya and Sai Pallavi. The story centers around two individuals from different backgrounds—Revanth (Naga Chaitanya), a struggling man with aspirations, and Mounika (Sai Pallavi), a strong-willed woman with her own dreams. As their paths cross, the film explores their evolving relationship amidst societal expectations and personal challenges. Known for its realistic portrayal of love and the complexities of relationships, Love Story features engaging performances, a heartfelt narrative, and memorable music. The film received positive reviews for its emotional depth and strong direction, resonating well with audiences.`,
+      link:"https://www.youtube.com/embed/1yH_eOxpkwo?si=_txKR5cxpBMdsAlw"
+    });
+
+    movies.set("Premam",{
+      name:"Premam",
+      path:"video/Malayalam/Actors/SaiPallavi/movies/Premam.jpg",
+      desc:`Premam (2015) is a Malayalam romantic comedy-drama directed by Alphonse Puthren, featuring Nivin Pauly, Sai Pallavi, and Madonna Sebastian. The film chronicles the life of George (Nivin), capturing his romantic experiences during three key phases: school, college, and adulthood. Each segment highlights his encounters with love, heartbreak, and personal growth, showcasing the innocence and complexities of young romance. Celebrated for its relatable characters, witty dialogue, and memorable soundtrack, Premam became a cultural phenomenon, resonating with audiences and significantly boosting the careers of its cast. The film's blend of humor and emotional depth solidified its status as a modern classic in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/pbgvTikmIMk?si=fhKIHAQp3Y4NU43B"
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    movies.set("Godha",{
+      name:"Godha",
+      path:"video/Malayalam/Directors/BasilJoseph/movies/Godha.jpg",
+      desc:`Godha (2017) is a Malayalam sports comedy-drama directed by Basil Joseph, featuring Tovino Thomas and Wamiqa Gabbi in lead roles. The story revolves around a young wrestler named Aadhi (Tovino), who is passionate about wrestling but struggles with the pressures of his family's expectations. He travels to Punjab to meet his maternal uncle, where he encounters cultural differences and the spirited local wrestling community. The film explores themes of ambition, love, and the pursuit of one's dreams, all while delivering a lighthearted narrative filled with humor and emotional moments. With its engaging performances, lively music, and a unique blend of sports and romance, Godha received positive reviews and resonated well with audiences, making it a memorable entry in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/SLv3D9xrxiQ?si=ztaW_xpaqGDFJrzb"
+    });
+
+    movies.set("Kunjiramayanam",{
+      name:"Kunjiramayanam",
+      path:"video/Malayalam/Directors/BasilJoseph/movies/Kunjiramayanam.jpg",
+      desc:`Kunjiramayanam (2015) is a Malayalam comedy-drama film directed by Basil Joseph, featuring Vineeth Sreenivasan, Dharmajan Bolgatty, and Aju Varghese in lead roles. Set in the picturesque village of Kunjiram, the story revolves around the misadventures of a group of friends as they navigate the complexities of life, love, and local traditions. The film is known for its light-hearted humor, quirky characters, and engaging storyline, capturing the essence of village life in Kerala. With its charming performances and witty dialogue, Kunjiramayanam received positive reviews, appealing to audiences for its relatable themes and entertaining narrative, making it a delightful addition to Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/axDSnoZ2zIM?si=iXjaivYuZj1kDY2u"
+    });
+
+    movies.set("MinnalMurali",{
+      name:"MinnalMurali",
+      path:"video/Malayalam/Directors/BasilJoseph/movies/MinnalMurali.jpg",
+      desc:`Minnal Murali (2021) is a Malayalam superhero film directed by Basil Joseph, featuring Tovino Thomas in the lead role. The story follows a young tailor named Jaison, who gains superpowers after being struck by lightning. Set in the 1990s, the film explores his journey as he grapples with his newfound abilities while facing challenges from a villain who emerges in the same small town. Blending action, humor, and heartfelt moments, Minnal Murali delves into themes of identity, responsibility, and the hero's journey. The film received critical acclaim for its engaging narrative, impressive visual effects, and strong performances, particularly Tovino's portrayal of Jaison, making it a standout entry in the superhero genre within Indian cinema.`,
+      link:"https://www.youtube.com/embed/zAUAliz1TKA?si=qrumawtycbCG-urr"
+    });
+
+    movies.set("OruThunduPadam",{
+      name:"OruThunduPadam",
+      path:"video/Malayalam/Directors/BasilJoseph/movies/OruThunduPadam.jpg",
+      desc:`Oru Thundu Padam (2015) is a Malayalam comedy film directed by Jithu Joseph, featuring actor Dileep in the lead role. The story revolves around the misadventures of a man who gets involved in a series of humorous situations while trying to fulfill his dreams. With a blend of comedy, romance, and family drama, the film captures the quirks of everyday life and the challenges faced by the protagonist. Known for its lighthearted approach and entertaining screenplay, Oru Thundu Padam resonates with audiences for its relatable characters and comedic moments, making it a fun watch in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/7q7ROZgJnFM?si=UneT7pT1PGDfHtwT"
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    movies.set("Kalimannu",{
+      name:"Kalimannu",
+      path:"video/Malayalam/Directors/Blessy/movies/Kalimannu.jpg",
+      desc:`Kalimannu (2013) is a Malayalam drama film directed by Ranjith, featuring Shwetha Menon in the lead role. The story follows a woman named Kalimannu who faces societal stigma and personal struggles after becoming a single mother. The film delves into themes of motherhood, sacrifice, and the harsh realities of life, showcasing the emotional journey of the protagonist as she navigates her challenges. Shwetha Menon's performance received acclaim for its depth and authenticity, and the film's poignant narrative highlights the strength of women in overcoming societal obstacles. Kalimannu is noted for its strong storytelling and social commentary, making it a significant entry in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/xunlwVeY7vQ?si=5UL2edie_H5S9-ok"
+    });
+
+    movies.set("Palunku",{
+      name:"Palunku",
+      path:"video/Malayalam/Directors/Blessy/movies/Palunku.jpg",
+      desc:`Palunku (2006) is a Malayalam drama film directed by Blessy, featuring Mammootty in the lead role. The story revolves around a man named Kuttanadan, who works as a farmer and faces various struggles related to his family and livelihood. The film explores themes of love, sacrifice, and the deep connection between individuals and their land. With its realistic portrayal of rural life, Palunku highlights the challenges faced by farmers and the impact of modernization on traditional values. Mammootty's performance, along with the film's beautiful cinematography and engaging narrative, garnered critical acclaim, making it a significant film in Malayalam cinema that resonates with audiences for its heartfelt storytelling.`,
+      link:"https://www.youtube.com/embed/YwLQAFhq8M8?si=-BHaCNPZVMxZZ8aQ"
+    });
+
+    movies.set("Pranayam",{
+      name:"Pranayam",
+      path:"video/Malayalam/Directors/Blessy/movies/Pranayam.jpg",
+      desc:`Pranayam (2011) is a Malayalam romantic drama directed by Blessy, featuring Mohanlal, Anupam Kher, and Jayapradha in pivotal roles. The film explores the complexities of love and relationships through the intertwined lives of three characters: a married couple and a widower. As they navigate their emotional struggles, the story delves into themes of love, loss, and the nature of companionship. Known for its poignant storytelling and strong performances, particularly by Mohanlal and Anupam Kher, Pranayam received praise for its sensitive portrayal of human emotions and relationships. The film's beautiful cinematography and evocative music further enhance its appeal, making it a memorable entry in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/zB0blUB27lI?si=Utzqi-7rMSyOInsw"
+    });
+
+    movies.set("TheGoatLife",{
+      name:"TheGoatLife",
+      path:"video/Malayalam/Directors/Blessy/movies/TheGoatLife.jpg",
+      desc:`The Goat Life (2021) is a Malayalam film directed by Rajesh Nair, which revolves around a group of friends who embark on a journey that intertwines friendship, adventure, and self-discovery. The story explores themes of camaraderie and the struggles of young adulthood as the characters navigate personal and societal challenges. With a blend of humor and drama, the film showcases their experiences and growth along the way. Known for its engaging narrative and relatable characters, The Goat Life captures the essence of friendship and the quest for meaning in life, making it a lighthearted yet impactful entry in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/xjQKvhEi7NI?si=j7Ai7ZsDuM1rz4yx"
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    movies.set("Antony",{
+      name:"Antony",
+      path:"video/Malayalam/Directors/Joshiy/movies/Antony.jpg",
+      desc:`Antony (1995) is a Malayalam film directed by Sasi Shankar, featuring Mohanlal in the lead role. The story revolves around Antony, a skilled and passionate artist who faces various challenges in his personal and professional life. As he navigates through love, friendship, and the struggles of being an artist, the film explores themes of ambition, creativity, and the impact of societal expectations on individual aspirations. Known for its engaging narrative and Mohanlal's compelling performance, Antony showcases the journey of self-discovery and the pursuit of one's dreams, resonating with audiences for its heartfelt storytelling and emotional depth.`,
+      link:"https://www.youtube.com/embed/ZE8OIPadmGA?si=zJE9UPs84Pqf-qL5"
+    });
+
+    movies.set("Avatharam",{
+      name:"Avatharam",
+      path:"video/Malayalam/Directors/Joshiy/movies/Avatharam.jpg",
+      desc:`Avatharam (1991) is a Malayalam film directed by K. Madhu, featuring Mohanlal in the lead role. The story revolves around a man named Neelakantan, who is caught in a web of conspiracy and crime after he accidentally becomes involved in a murder case. As he struggles to prove his innocence, the film explores themes of justice, deception, and the complexities of human relationships. Known for its engaging narrative and strong performances, particularly by Mohanlal, Avatharam combines elements of thriller and drama, showcasing the director's signature style. The film received positive reviews for its gripping storyline and character development, making it a notable entry in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/GsgH2qfrgWY?si=QUeGxwyxu6LE12eD"
+    });
+
+    movies.set("LailaaOLailaa",{
+      name:"LailaaOLailaa",
+      path:"video/Malayalam/Directors/Joshiy/movies/LailaaOLailaa.jpg",
+      desc:`Lailaa O Lailaa (2015) is a Malayalam action thriller directed by Joshi, featuring Mohanlal in the lead role. The film follows the story of a former criminal who gets entangled in a web of crime and deception when he tries to help a woman named Lailaa. As the plot unfolds, it explores themes of love, loyalty, and the consequences of past actions. Known for its stylish action sequences and Mohanlal's charismatic performance, the film combines elements of romance and suspense, keeping the audience engaged. Despite mixed reviews, Lailaa O Lailaa has garnered attention for its engaging storyline and memorable music.`,
+      link:"https://www.youtube.com/embed/8iwxpjzyLFA?si=E5856XFnTMK92FUq"
+    });
+
+    movies.set("PorinjuMariamJose",{
+      name:"PorinjuMariamJose",
+      path:"video/Malayalam/Directors/Joshiy/movies/PorinjuMariamJose.jpg",
+      desc:`Porinju Mariam Jose (2019) is a Malayalam action-drama film directed by M. M. K. Nair, featuring Joju George, Nyla Usha, and Tovino Thomas in lead roles. The story is set in a small town and revolves around the lives of Porinju, a local tough guy, and Mariam, a strong-willed woman. The narrative explores themes of love, friendship, and the complexities of relationships within the backdrop of local politics and crime. Known for its engaging storytelling, memorable characters, and a mix of humor and drama, the film received positive reviews for its performances and direction, making it a notable entry in contemporary Malayalam cinema. The chemistry between the leads and the film's lively soundtrack also contributed to its appeal.`,
+      link:"https://www.youtube.com/embed/r1-LnmYvWIY?si=sQ8Nk5cBGgcm1Z9I"
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    movies.set("AKAyyappanumKoshiyum",{
+      name:"AKAyyappanumKoshiyum",
+      path:"video/Malayalam/Directors/Ranjith/movies/AKAyyappanumKoshiyum.jpg",
+      desc:`AkAyyappanum Koshiyum (2020) is a Malayalam action-drama film directed by Basil Joseph, featuring Prithviraj Sukumaran and Biju Menon in lead roles. The story revolves around Ayyappan (Biju Menon), a forest officer, and Koshy (Prithviraj), a wealthy and influential man, whose paths collide over a conflict that escalates into a battle of wits and wills. The film explores themes of power, pride, and the struggles between authority and individualism. Known for its engaging narrative, strong performances, and impactful dialogues, AkAyyappanum Koshiyum received critical acclaim and became a commercial success, resonating with audiences for its intense storytelling and character development. The film's blend of action, drama, and humor solidified its status as a standout in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/8Wx3dAQ8pr4?si=xdDixCeGTzEFD4z-"
+    });
+
+    movies.set("ARanjithCinema",{
+      name:"ARanjithCinema",
+      path:"video/Malayalam/Directors/Ranjith/movies/ARanjithCinema.jpg",
+      desc:`A Ranjith Cinema (2023) is a Malayalam film directed by Abrid Shine, focusing on the life of a struggling filmmaker named Ranjith. The story delves into his passion for cinema and the challenges he faces in the industry, exploring themes of ambition, creativity, and the sacrifices made for art. As Ranjith navigates personal and professional obstacles, the film showcases the emotional and often tumultuous journey of an artist striving to make his mark. With a mix of humor, drama, and introspective moments, A Ranjith Cinema aims to resonate with audiences who appreciate the complexities of pursuing one's dreams in the world of filmmaking.`,
+      link:"https://www.youtube.com/embed/zDk2zF70lkk?si=eS84eewDeKi9xphb"
+    });
+
+    movies.set("Koode",{
+      name:"Koode",
+      path:"video/Malayalam/Directors/Ranjith/movies/Koode.jpg",
+      desc:`Koode (2018) is a Malayalam drama film directed by Anjali Menon, featuring Prithviraj Sukumaran, Parvathy Thiruvothu, and Roshan Mathew in lead roles. The story revolves around the life of an introverted man named Abru (Prithviraj), who returns to his childhood home after many years and reconnects with his sister, whom he had grown apart from. The film beautifully explores themes of family, love, loss, and the significance of human connections. It incorporates a touch of magical realism, as Abru can see his childhood friend, a spirit, who helps him navigate his emotional journey. Koode received critical acclaim for its heartfelt storytelling, strong performances, and stunning visuals, making it a memorable entry in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/8sdapbEs4pY?si=EtmlW0Der7JcIcUk"
+    });
+
+    movies.set("Kotthu",{
+      name:"Kotthu",
+      path:"video/Malayalam/Directors/Ranjith/movies/Kotthu.jpg",
+      desc:`Kotthu (2023) is a Malayalam film directed by the duo of Rony David Raj and Jithin Raj, featuring an ensemble cast that includes Siju Wilson and Asif Ali. The story revolves around a group of friends and their lives intertwined with themes of friendship, loyalty, and the challenges of adulthood. Set against the backdrop of a local setting, the film showcases the struggles and aspirations of the characters as they navigate their relationships and personal growth. Known for its engaging narrative, relatable characters, and a mix of humor and drama, Kotthu aims to resonate with audiences, capturing the essence of youth and the bonds that define it. The film's music and cinematography further enhance its appeal, making it a notable addition to contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/KBYCJZ7qF3A?si=UrxBxbc9n7v5Bjsv"
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+    movies.set("Barroz",{
+      name:"Barroz",
+      path:"video/Malayalam/Directors/SantoshSivan/movies/Barroz.webp",
+      desc:`Barroz (2022) is a Malayalam fantasy adventure film directed by Mohanlal, who also stars in the lead role. The story revolves around a legendary guardian named Barroz, who is tasked with protecting a valuable treasure hidden in a mystical world. As he embarks on a quest to safeguard the treasure from various threats, the film explores themes of bravery, loyalty, and the clash between good and evil. Known for its visual effects and grand scale, Barroz showcases Mohanlal's charisma and creativity in bringing a captivating fantasy tale to life. The film aims to entertain audiences with its engaging storyline, adventure elements, and a touch of magic, marking an ambitious project in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/zt4lmxJEHZE?si=jnqGcfs271s0q6Cb"
+    });
+
+    movies.set("DoubleBarrel",{
+      name:"DoubleBarrel",
+      path:"video/Malayalam/Directors/SantoshSivan/movies/DoubleBarrel.jpg",
+      desc:`Double Barrel (2015) is a Malayalam action-comedy film directed by Lijo Jose Pellissery, featuring an ensemble cast that includes Prithviraj Sukumaran, Dulquer Salmaan, and Swathi Reddy. The film follows the story of two friends who get entangled in a chaotic adventure involving a hidden treasure and a series of comical mishaps. Set against the vibrant backdrop of Kerala, Double Barrel blends humor, action, and quirky characters, offering a unique narrative style that reflects Pellissery's distinct filmmaking approach. The film is known for its stylish cinematography, engaging soundtrack, and a mix of genres, appealing to audiences looking for an entertaining cinematic experience. Its playful storytelling and energetic performances contribute to its charm, making it a notable entry in contemporary Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/L3yxnDk4LbA?si=p9x-qTqqoqOslCK8"
+    });
+
+    movies.set("SapthamashreeThaskaraha",{
+      name:"SapthamashreeThaskaraha",
+      path:"video/Malayalam/Directors/SantoshSivan/movies/SapthamashreeThaskaraha.jpg",
+      desc:`Sapthamashree Thaskaraha (2014) is a Malayalam heist comedy film directed by Anil Radhakrishnan Menon, featuring an ensemble cast including Prithviraj Sukumaran, Nedumudi Venu, and Bhavana. The story revolves around a group of seven individuals who plan an audacious heist to steal a valuable artifact from a wealthy businessman. Each character brings their unique skills and quirks to the team, leading to a series of humorous and unexpected events. The film combines elements of comedy, adventure, and drama while exploring themes of friendship and ambition. Known for its witty dialogues and engaging narrative, Sapthamashree Thaskaraha received positive reviews for its clever storytelling and performances, making it a memorable entry in Malayalam cinema.`,
+      link:"https://www.youtube.com/embed/d_EQlkAjwF0?si=eB-HWxARJc-gaACd"
+    });
+
+    movies.set("Urumi",{
+      name:"Urumi",
+      path:"video/Malayalam/Directors/SantoshSivan/movies/Urumi.jpg",
+      desc:`Urumi (2011) is a Malayalam historical drama directed by Santosh Sivan, featuring Prithviraj Sukumaran, Genelia D'Souza, and Vikramjeet Virk. Set in the 16th century, the film revolves around the story of a young warrior named Chirakkal Kelu Nayanar, who seeks revenge against a Portuguese general responsible for his father's death. With its rich visuals and vibrant storytelling, Urumi blends action, adventure, and romance, while also highlighting themes of nationalism and heritage. The film is notable for its stunning cinematography, elaborate action sequences, and a strong musical score. Praised for its artistic direction and performances, Urumi is recognized as a significant film in Malayalam cinema, showcasing a blend of historical narrative and contemporary filmmaking techniques.`,
+      link:"https://www.youtube.com/embed/dh0GbSmWCQI?si=nAcm_1g9rEYFRd7-"
+    });
+
+
+
+
+
+
+
+
+
+
+
     movies.set("Seve",{
       name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+      path:"path",
+      desc:`desc`,
+      link:"link"
     });
 
     movies.set("Seve",{
       name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+      path:"path",
+      desc:`desc`,
+      link:"link"
     });
 
     movies.set("Seve",{
       name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+      path:"path",
+      desc:`desc`,
+      link:"link"
     });
 
     movies.set("Seve",{
       name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
+      path:"path",
+      desc:`desc`,
+      link:"link"
     });
 
-    movies.set("Seve",{
-      name:"Seven",
-      path:"video/English/Actors/BradPitt/movies/Seven.jpg",
-      desc:"",
-      link:""
-    });
+    
+
+    
+
+  
 
 
     console.log(movies.get(name).path);

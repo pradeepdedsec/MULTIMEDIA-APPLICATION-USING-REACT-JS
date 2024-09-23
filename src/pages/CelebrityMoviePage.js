@@ -572,154 +572,316 @@ In addition to her film career, Samantha has gained recognition for her fashion 
 
 
 
-  currentCelebrity.set("Stephe",{
-    name:"Stephen",
-    path:"video/English/Directors/Stephen/Directorimg/Stephen.jpg",
-    about:``,
+
+
+
+
+
+
+
+
+
+  currentCelebrity.set("FahadhFaasil",{
+    name:"FahadhFaasil",
+    path:"video/Malayalam/Actors/FahadhFaasil/Actorimg/FahadhFaasil.jpg",
+    about:`Fahadh Faasil, born on August 8, 1982, in Alappuzha, Kerala, is widely regarded as one of the most talented and versatile actors in Indian cinema, particularly in the Malayalam film industry. The son of renowned filmmaker Fazil, Fahadh made his acting debut at the age of 19 in the film Kaiyethum Doorath (2002), which was directed by his father. However, the film was a critical and commercial failure, and Fahadh stepped away from acting for nearly seven years. This early setback didn’t deter him; instead, he used the time to refine his craft and returned to the industry in 2009 with a renewed passion and focus. His comeback came with Kerala Cafe (2009), an anthology film where he featured in the segment "Mrityunjayam." Fahadh's subtle and naturalistic performance immediately caught the attention of critics and filmmakers, marking the beginning of a transformative phase in his career.Fahadh's breakthrough came with Chaappa Kurishu (2011), in which he portrayed a morally ambiguous, flawed character, a role that highlighted his unique approach to acting. This film, along with 22 Female Kottayam (2012), in which he played an anti-hero, demonstrated Fahadh's willingness to take on complex and challenging roles that deviated from traditional hero-centric narratives. His nuanced performances and ability to portray emotionally intricate characters set him apart from many of his contemporaries. Over the years, Fahadh has become known for his commitment to realism, often disappearing into his roles and delivering performances that feel lived-in and authentic. His work is characterized by an understated intensity and a deep emotional range, allowing him to portray a wide variety of characters, from charming romantics to deeply flawed, morally gray individuals.`,
     movies:[
       {
-        name:"Babylon",
-        path:"video/English/Actors/BradPitt/movies/Babylon.jpg",
+        name:"Aavesham",
+        path:"video/Malayalam/Actors/FahadhFaasil/movies/Aavesham.jpg",
       },
       {
-        name:"MoneyBall",
-        path:"video/English/Actors/BradPitt/movies/MoneyBall.jpg"
+        name:"Amen",
+        path:"video/Malayalam/Actors/FahadhFaasil/movies/Amen.jpg"
       },
       {
-        name:"Seven",
-        path:"video/English/Actors/BradPitt/movies/Seven.jpg"
+        name:"NjanPrakashan",
+        path:"video/Malayalam/Actors/FahadhFaasil/movies/NjanPrakashan.jpg"
       },
       {
-        name:"Worldwarz",
-        path:"video/English/Actors/BradPitt/movies/Worldwarz.jpg"
+        name:"OruIndianPranayakadha",
+        path:"video/Malayalam/Actors/FahadhFaasil/movies/OruIndianPranayakadha.jpg"
       },
     ]
   });
 
 
-  currentCelebrity.set("Stephe",{
-    name:"Stephen",
-    path:"video/English/Directors/Stephen/Directorimg/Stephen.jpg",
-    about:``,
+
+  currentCelebrity.set("Mammootty",{
+    name:"Mammootty",
+    path:"video/Malayalam/Actors/Mammootty/Actorimg/Mammootty.jpg",
+    about:`Mammootty, born Muhammad Kutty Panaparambil Ismail on September 7, 1951, in Chandiroor, Kerala, is one of the most celebrated and iconic actors in Indian cinema, with a career spanning over five decades. Known primarily for his work in Malayalam cinema, Mammootty has also made his mark in Tamil, Telugu, Hindi, and Kannada films, establishing himself as a versatile actor with a massive fan base across different regions of India. His commanding screen presence, exceptional acting skills, and ability to immerse himself into a wide range of characters have made him a living legend in Indian cinema. Mammootty's journey in the film industry began in the early 1970s, and over the years, he has appeared in over 400 films, portraying an incredible variety of roles that showcase his versatility and dedication to the craft.Mammootty's career breakthrough came with Mela (1980), but it was in the 1980s and 1990s that he truly rose to superstardom with a series of critically acclaimed and commercially successful films. Movies like Yathra (1985), Oru Vadakkan Veeragatha (1989), Amaram (1991), and Vidheyan (1994) highlighted his ability to effortlessly portray characters from different social, cultural, and historical backgrounds. His portrayal of a Chekavar warrior in Oru Vadakkan Veeragatha earned him his first National Film Award for Best Actor, cementing his status as a powerhouse performer. Known for his precision, Mammootty brings an air of gravitas to his roles, making his performances both memorable and impactful. His ability to portray intense emotions and complex characters, often with minimal dialogue, sets him apart as one of the finest actors in the industry.`,
     movies:[
       {
-        name:"Babylon",
-        path:"video/English/Actors/BradPitt/movies/Babylon.jpg",
+        name:"Kanalkkattu",
+        path:"video/Malayalam/Actors/Mammootty/movies/Kanalkkattu.jpg",
       },
       {
-        name:"MoneyBall",
-        path:"video/English/Actors/BradPitt/movies/MoneyBall.jpg"
+        name:"Thaniyavartanam",
+        path:"video/Malayalam/Actors/Mammootty/movies/Thaniyavartanam.jpg"
       },
       {
-        name:"Seven",
-        path:"video/English/Actors/BradPitt/movies/Seven.jpg"
+        name:"Utharam",
+        path:"video/Malayalam/Actors/Mammootty/movies/Utharam.jpg"
       },
       {
-        name:"Worldwarz",
-        path:"video/English/Actors/BradPitt/movies/Worldwarz.jpg"
+        name:"Yavanika",
+        path:"video/Malayalam/Actors/Mammootty/movies/Yavanika.jpg"
+      },
+    ]
+  });
+
+  currentCelebrity.set("Mohanlal",{
+    name:"Mohanlal",
+    path:"video/Malayalam/Actors/Mohanlal/Actorimg/Mohanlal.jpg",
+    about:`Mohanlal Viswanathan, widely known as Mohanlal, born on May 21, 1960, in Elanthoor, Kerala, is one of the most revered and versatile actors in Indian cinema, particularly in the Malayalam film industry. With a career spanning over four decades, Mohanlal has appeared in more than 350 films and is celebrated for his ability to portray a wide range of characters with incredible ease, authenticity, and depth. Known as "The Complete Actor," he has the unique ability to seamlessly transition between intense drama, comedy, action, and emotional roles, making him one of the most beloved and respected figures in Indian cinema. His naturalistic acting style, combined with an innate ability to bring out the emotional essence of a character, has earned him legions of fans and numerous accolades, including five National Film Awards and multiple state awards.Mohanlal made his debut in 1980 with Manjil Virinja Pookkal, where he played a negative role, but it was his effortless charm and ability to evoke empathy even as an antagonist that caught the audience's attention. From there, he quickly rose to prominence with a series of successful films in the 1980s and 1990s, a period often considered the golden age of Malayalam cinema. Films like Rajavinte Makan (1986), T.P. Balagopalan M.A. (1986), Kireedam (1989), and Chithram (1988) showcased his versatility, as he transitioned from roles that demanded intense emotional performances to light-hearted comedic parts with equal finesse. His ability to slip into complex characters made him a favorite of both filmmakers and audiences, establishing him as one of the most bankable stars in the industry.`,
+    movies:[
+      {
+        name:"Drishyam",
+        path:"video/Malayalam/Actors/Mohanlal/movies/Drishyam.jpg",
+      },
+      {
+        name:"Lucifer",
+        path:"video/Malayalam/Actors/Mohanlal/movies/Lucifer.jpg"
+      },
+      {
+        name:"Manichithrathazhu",
+        path:"video/Malayalam/Actors/Mohanlal/movies/Manichithrathazhu.jpg"
+      },
+      {
+        name:"Neru",
+        path:"video/Malayalam/Actors/Mohanlal/movies/Neru.jpg"
+      },
+    ]
+  });
+
+  currentCelebrity.set("NivinPauly",{
+    name:"NivinPauly",
+    path:"video/Malayalam/Actors/NivinPauly/Actorimg/NivinPauly.jpg",
+    about:`Nivin Pauly, born on October 11, 1984, in Aluva, Kerala, is a popular actor and producer in Malayalam cinema, known for his charismatic screen presence and ability to connect with audiences across age groups. Rising to stardom with his boy-next-door image and relatable performances, Nivin has become one of the most bankable stars in the Malayalam film industry. His journey to success is often seen as inspirational, with humble beginnings and an initial struggle before making a breakthrough. Nivin started his career in cinema after quitting his job as a software engineer, driven by a deep passion for acting. He made his debut with the 2010 film Malarvaadi Arts Club, directed by Vineeth Sreenivasan, which garnered him moderate recognition. However, it was his perseverance, and his continuous collaboration with Vineeth, that eventually catapulted him into the limelight.Nivin's major breakthrough came in 2012 with the romantic comedy Thattathin Marayathu, again directed by Vineeth Sreenivasan. The film was a massive success, establishing Nivin as a romantic hero in Malayalam cinema. His portrayal of Vinod, a Hindu boy in love with a Muslim girl, was praised for its innocence and sincerity, and the movie's success marked the beginning of Nivin's journey as a star. His ability to balance emotional depth with lightheartedness became his signature style, making him a favorite among young audiences. Following this, Nivin delivered a series of hit films, which showcased his versatility and his ability to excel in both romantic and comedic roles. His performance in Neram (2013), a bilingual film directed by Alphonse Puthren, further solidified his rising stardom.`,
+    movies:[
+      {
+        name:"ActionHeroBiju",
+        path:"video/Malayalam/Actors/NivinPauly/movies/ActionHeroBiju.jpg",
+      },
+      {
+        name:"Neram",
+        path:"video/Malayalam/Actors/NivinPauly/movies/Neram.jpg"
+      },
+      {
+        name:"Premam",
+        path:"video/Malayalam/Actors/NivinPauly/movies/Premam.jpg"
+      },
+      {
+        name:"ThattathinMarayathu",
+        path:"video/Malayalam/Actors/NivinPauly/movies/ThattathinMarayathu.jfif"
+      },
+    ]
+  });
+
+  currentCelebrity.set("SaiPallavi",{
+    name:"SaiPallavi",
+    path:"video/Malayalam/Actors/SaiPallavi/Actorimg/SaiPallavi.jpg",
+    about:`Sai Pallavi, born on May 9, 1992, in Kotagiri, Tamil Nadu, is a celebrated Indian actress and dancer known for her natural acting style, strong screen presence, and ability to bring authenticity to the characters she portrays. With a career spanning multiple South Indian film industries, including Malayalam, Tamil, and Telugu cinema, Sai Pallavi has garnered a massive fan base and critical acclaim for her nuanced performances. What sets her apart from many of her contemporaries is her refusal to conform to conventional beauty standards in the industry; she is known for embracing her natural look, often appearing without makeup on screen, a decision that has earned her widespread admiration and respect. Her authenticity, combined with her immense talent, has made her a role model for many young women and a unique figure in Indian cinema.Sai Pallavi's breakthrough came in 2015 with the Malayalam film Premam, directed by Alphonse Puthren, where she played the role of Malar, a college lecturer who becomes the love interest of the protagonist. Her portrayal of Malar, with her graceful charm and expressive acting, won the hearts of audiences across South India. Premam became a massive hit, and Sai Pallavi's performance was one of the key reasons for the film's success. She became an overnight sensation, and her character in the film remains iconic to this day. Her ability to convey emotions effortlessly, paired with her captivating screen presence, set her apart from other debutants and established her as a promising talent in the industry.`,
+    movies:[
+      {
+        name:"Fidaa",
+        path:"video/Malayalam/Actors/SaiPallavi/movies/Fidaa.jpg",
+      },
+      {
+        name:"Gargi",
+        path:"video/Malayalam/Actors/SaiPallavi/movies/Gargi.jpg"
+      },
+      {
+        name:"LoveStory",
+        path:"video/Malayalam/Actors/SaiPallavi/movies/LoveStory.jpg"
+      },
+      {
+        name:"Premam",
+        path:"video/Malayalam/Actors/SaiPallavi/movies/Premam.jpg"
       },
     ]
   });
 
 
-  currentCelebrity.set("Stephe",{
-    name:"Stephen",
-    path:"video/English/Directors/Stephen/Directorimg/Stephen.jpg",
-    about:``,
+
+
+
+
+
+
+
+
+
+
+
+
+
+  currentCelebrity.set("BasilJoseph",{
+    name:"BasilJoseph",
+    path:"video/Malayalam/Directors/BasilJoseph/Directorimg/BasilJoseph.jpg",
+    about:`Basil Joseph, born on April 28, 1990, in Wayanad, Kerala, is a multifaceted talent in the Indian film industry, particularly in Malayalam cinema, known for his contributions as a director, actor, and screenwriter. Starting his journey with a passion for storytelling, Basil's rise to fame has been both swift and impactful, earning him a reputation as one of the most promising young filmmakers in the Malayalam film industry. His ability to blend humor, emotions, and socially relevant themes has made his work stand out, and his approach to filmmaking is seen as refreshing and innovative. Basil's keen eye for relatable characters and simple, yet meaningful narratives has resonated with audiences, making him a household name in Kerala and beyond.Basil Joseph’s initial steps in the film industry were as a short filmmaker, where he honed his skills in directing and storytelling. His early short films, including Oru Thundu Padam and Cineman, displayed his unique sense of humor and creativity, which caught the attention of many within the industry. His transition to feature films came in 2015 when he directed his debut film, Kunjiramayanam, a lighthearted comedy that revolves around a village and its quirky inhabitants. The film, which featured Vineeth Sreenivasan in the lead role, was a commercial success and established Basil as a director with a unique voice in the Malayalam film industry. His ability to weave humor into everyday life, while maintaining a grounded and authentic feel, became one of the defining aspects of his directorial style.`,
     movies:[
       {
-        name:"Babylon",
-        path:"video/English/Actors/BradPitt/movies/Babylon.jpg",
+        name:"Godha",
+        path:"video/Malayalam/Directors/BasilJoseph/movies/Godha.jpg",
       },
       {
-        name:"MoneyBall",
-        path:"video/English/Actors/BradPitt/movies/MoneyBall.jpg"
+        name:"Kunjiramayanam",
+        path:"video/Malayalam/Directors/BasilJoseph/movies/Kunjiramayanam.jpg"
       },
       {
-        name:"Seven",
-        path:"video/English/Actors/BradPitt/movies/Seven.jpg"
+        name:"MinnalMurali",
+        path:"video/Malayalam/Directors/BasilJoseph/movies/MinnalMurali.jpg"
       },
       {
-        name:"Worldwarz",
-        path:"video/English/Actors/BradPitt/movies/Worldwarz.jpg"
+        name:"OruThunduPadam",
+        path:"video/Malayalam/Directors/BasilJoseph/movies/OruThunduPadam.jpg"
       },
     ]
   });
 
 
-  currentCelebrity.set("Stephe",{
-    name:"Stephen",
-    path:"video/English/Directors/Stephen/Directorimg/Stephen.jpg",
-    about:``,
+  currentCelebrity.set("Blessy",{
+    name:"Blessy",
+    path:"video/Malayalam/Directors/Blessy/Directorimg/Blessy.jpg",
+    about:`Blessy, born on September 3, 1964, in Thiruvalla, Kerala, is a highly regarded filmmaker and screenwriter in Malayalam cinema, known for his deeply emotional narratives and humanistic approach to storytelling. He is celebrated for crafting films that delve into complex human emotions, relationships, and the struggles of life, often blending raw realism with subtle artistic expression. Having started his career as an assistant to the legendary filmmaker Padmarajan, Blessy imbibed a deep understanding of storytelling and character-driven narratives, which later became the hallmark of his directorial ventures. His films often portray the beauty of human resilience in the face of adversity, and his unique storytelling style has earned him critical acclaim and a dedicated fanbase.Blessy made his directorial debut in 2004 with Kaazhcha, a poignant tale that dealt with the bond between a mute boy who survived the Gujarat earthquake and a film projector operator in Kerala. The film was lauded for its emotional depth, sensitive portrayal of human suffering, and brilliant performances. Kaazhcha not only resonated with the audience but also won several awards, including the Kerala State Film Award for Best Film. The film's success marked Blessy as a director with a unique voice, capable of tackling social issues through personal and emotional narratives.`,
     movies:[
       {
-        name:"Babylon",
-        path:"video/English/Actors/BradPitt/movies/Babylon.jpg",
+        name:"Kalimannu",
+        path:"video/Malayalam/Directors/Blessy/movies/Kalimannu.jpg",
       },
       {
-        name:"MoneyBall",
-        path:"video/English/Actors/BradPitt/movies/MoneyBall.jpg"
+        name:"Palunku",
+        path:"video/Malayalam/Directors/Blessy/movies/Palunku.jpg"
       },
       {
-        name:"Seven",
-        path:"video/English/Actors/BradPitt/movies/Seven.jpg"
+        name:"Pranayam",
+        path:"video/Malayalam/Directors/Blessy/movies/Pranayam.jpg"
       },
       {
-        name:"Worldwarz",
-        path:"video/English/Actors/BradPitt/movies/Worldwarz.jpg"
+        name:"TheGoatLife",
+        path:"video/Malayalam/Directors/Blessy/movies/TheGoatLife.jpg"
+      },
+    ]
+  });
+
+  currentCelebrity.set("Joshiy",{
+    name:"Joshiy",
+    path:"video/Malayalam/Directors/Joshiy/Directorimg/Joshiy.jpg",
+    about:`Joshiy, born on July 19, 1952, in Varkala, Kerala, is one of the most prominent and veteran filmmakers in Malayalam cinema, with a career spanning over four decades. He is known for directing a wide range of films across various genres, including action, drama, family-oriented films, and thrillers. Renowned for his ability to adapt to changing trends in the industry while maintaining a distinct style, Joshiy has delivered numerous blockbuster films that have cemented his reputation as a versatile and influential director. Over the years, he has worked with some of the biggest stars in Malayalam cinema, including Mammootty, Mohanlal, Suresh Gopi, and others, playing a significant role in shaping their careers.Joshiy’s entry into the film industry came in the early 1970s, and he made his directorial debut with Tiger Salim (1978). However, it was in the 1980s that Joshiy rose to prominence as a director who could blend mass appeal with gripping storytelling. His films during this period, such as Moorkhan (1980), Aa Raathri (1983), and New Delhi (1987), showcased his flair for action-packed narratives mixed with social commentary. New Delhi, starring Mammootty, was a groundbreaking film in Malayalam cinema, based on the novel Al Raji by Irving Wallace, and it revolved around political corruption and media manipulation. The film was a huge commercial success and is still considered one of the finest political thrillers in Indian cinema. It not only elevated Joshiy's status as a top director but also played a crucial role in shaping Mammootty’s career.`,
+    movies:[
+      {
+        name:"Antony",
+        path:"video/Malayalam/Directors/Joshiy/movies/Antony.jpg",
+      },
+      {
+        name:"Avatharam",
+        path:"video/Malayalam/Directors/Joshiy/movies/Avatharam.jpg"
+      },
+      {
+        name:"LailaaOLailaa",
+        path:"video/Malayalam/Directors/Joshiy/movies/LailaaOLailaa.jpg"
+      },
+      {
+        name:"PorinjuMariamJose",
+        path:"video/Malayalam/Directors/Joshiy/movies/PorinjuMariamJose.jpg"
+      },
+    ]
+  });
+
+  currentCelebrity.set("Ranjith",{
+    name:"Ranjith",
+    path:"video/Malayalam/Directors/Ranjith/Directorimg/Ranjith.jpg",
+    about:`Ranjith Balakrishnan, widely known as Ranjith, is a highly influential figure in Malayalam cinema, celebrated for his work as a director, screenwriter, producer, and actor. Born on September 5, 1964, in Balussery, Kerala, Ranjith's career has been marked by his ability to craft deeply meaningful narratives that blend realism with commercial appeal, often focusing on complex human relationships, social issues, and the evolving dynamics of Kerala's socio-political landscape. He began his journey in the industry as a screenwriter in the late 1980s and quickly established himself as a writer with a knack for creating compelling characters and rich, multi-layered stories. Over time, he transitioned into directing, where he further cemented his place as one of Malayalam cinema's most respected and innovative filmmakers.Ranjith's early work as a screenwriter includes iconic films such as Peruvannapurathe Visheshangal (1989) and Devasuram (1993), the latter being a major turning point in his career. Devasuram, starring Mohanlal, is one of Malayalam cinema’s most beloved films and is praised for its portrayal of the rivalry between two feudal lords. The film's protagonist, Mangalassery Neelakantan, became an iconic character, and Ranjith's screenplay received widespread acclaim for its depth, character development, and dialogues. This success established him as one of the top screenwriters of the 1990s, known for creating powerful and larger-than-life male characters often placed in morally ambiguous situations.`,
+    movies:[
+      {
+        name:"AKAyyappanumKoshiyum",
+        path:"video/Malayalam/Directors/Ranjith/movies/AKAyyappanumKoshiyum.jpg",
+      },
+      {
+        name:"ARanjithCinema",
+        path:"video/Malayalam/Directors/Ranjith/movies/ARanjithCinema.jpg"
+      },
+      {
+        name:"Koode",
+        path:"video/Malayalam/Directors/Ranjith/movies/Koode.jpg"
+      },
+      {
+        name:"Kotthu",
+        path:"video/Malayalam/Directors/Ranjith/movies/Kotthu.jpg"
+      },
+    ]
+  });
+
+  currentCelebrity.set("SantoshSivan",{
+    name:"SantoshSivan",
+    path:"video/Malayalam/Directors/SantoshSivan/Directorimg/SantoshSivan.jpg",
+    about:`Santosh Sivan, born on February 8, 1964, in Thiruvananthapuram, Kerala, is one of India’s most celebrated cinematographers, directors, and producers, with a career that has significantly influenced both Indian and international cinema. Known for his mastery of visual storytelling, Sivan has earned a global reputation for his work as a cinematographer, where his ability to capture the beauty of nature, human emotions, and complex narratives through the lens has set him apart. He is the first cinematographer in Asia-Pacific to be inducted as a member of the American Society of Cinematographers (ASC), which is a testament to his immense contribution to the craft. Over the years, Sivan has worked across a wide range of films, including mainstream Bollywood blockbusters, regional cinema, and critically acclaimed international projects, making him a versatile artist who moves fluidly between genres, cultures, and languages.Santosh Sivan comes from a family deeply rooted in the arts. His father was a renowned filmmaker and documentarian, while his mother was a teacher. Growing up in such an environment helped nurture his love for cinema from an early age. He attended the prestigious Film and Television Institute of India (FTII), Pune, where he specialized in cinematography, and soon after began his career in the Indian film industry. His early work as a cinematographer in Malayalam cinema, with films like Perumthachan (1991), immediately established him as a visionary talent. Perumthachan was acclaimed for its rich, textured visual language that brought out the rustic beauty of Kerala while complementing the film's intricate narrative about tradition, craftsmanship, and modernity.`,
+    movies:[
+      {
+        name:"Barroz",
+        path:"video/Malayalam/Directors/SantoshSivan/movies/Barroz.webp",
+      },
+      {
+        name:"DoubleBarrel",
+        path:"video/Malayalam/Directors/SantoshSivan/movies/DoubleBarrel.jpg"
+      },
+      {
+        name:"SapthamashreeThaskaraha",
+        path:"video/Malayalam/Directors/SantoshSivan/movies/SapthamashreeThaskaraha.jpg"
+      },
+      {
+        name:"Urumi",
+        path:"video/Malayalam/Directors/SantoshSivan/movies/Urumi.jpg"
       },
     ]
   });
 
 
-  currentCelebrity.set("Stephe",{
-    name:"Stephen",
-    path:"video/English/Directors/Stephen/Directorimg/Stephen.jpg",
-    about:``,
-    movies:[
-      {
-        name:"Babylon",
-        path:"video/English/Actors/BradPitt/movies/Babylon.jpg",
-      },
-      {
-        name:"MoneyBall",
-        path:"video/English/Actors/BradPitt/movies/MoneyBall.jpg"
-      },
-      {
-        name:"Seven",
-        path:"video/English/Actors/BradPitt/movies/Seven.jpg"
-      },
-      {
-        name:"Worldwarz",
-        path:"video/English/Actors/BradPitt/movies/Worldwarz.jpg"
-      },
-    ]
-  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   currentCelebrity.set("Stephe",{
     name:"Stephen",
-    path:"video/English/Directors/Stephen/Directorimg/Stephen.jpg",
+    path:"video/Malayalam/Directors/Stephen/Directorimg/Stephen.jpg",
     about:``,
     movies:[
       {
-        name:"Babylon",
-        path:"video/English/Actors/BradPitt/movies/Babylon.jpg",
+        name:"Carrie",
+        path:"video/Malayalam/Directors/Stephen/movies/Carrie.jpg",
       },
       {
-        name:"MoneyBall",
-        path:"video/English/Actors/BradPitt/movies/MoneyBall.jpg"
+        name:"IndianaJones",
+        path:"video/Malayalam/Directors/Stephen/movies/IndianaJones.jpg"
       },
       {
-        name:"Seven",
-        path:"video/English/Actors/BradPitt/movies/Seven.jpg"
+        name:"JurassicPark",
+        path:"video/Malayalam/Directors/Stephen/movies/JurassicPark.jpg"
       },
       {
-        name:"Worldwarz",
-        path:"video/English/Actors/BradPitt/movies/Worldwarz.jpg"
+        name:"ShawshankRedemption",
+        path:"video/Malayalam/Directors/Stephen/movies/ShawshankRedemption.jpg"
       },
     ]
   });
+  
+
+
+  
 
   
 
