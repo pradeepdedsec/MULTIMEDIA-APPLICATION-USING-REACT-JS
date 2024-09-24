@@ -290,25 +290,24 @@ const VideoLanguageHome = () => {
         Genre:"New Release",
         photos:[
             {
-                name:"Garudan",
-                path:"video/Tamil/New Release/garudan.jpeg"
-            },
-            
-            {
-                name:"Goat",
-                path:"video/Tamil/New Release/goat.jpeg"
+                name:"TheGoatLife",
+                path:"video/Malayalam/Directors/Blessy/movies/TheGoatLife.jpg"
             },
             {
-                name:"Indian2",
-                path:"video/Tamil/New Release/indian2.jpg"
+                name:"Aavesham",
+                path:"video/Malayalam/Actors/FahadhFaasil/movies/Aavesham.jpg",
             },
             {
-                name:"Maharaja",
-                path:"video/Tamil/New Release/maharaja.jpg"
+                name:"Lucifer",
+                path:"video/Malayalam/Actors/Mohanlal/movies/Lucifer.jpg"
             },
             {
-                name:"Star",
-                path:"video/Tamil/New Release/star.jpg"
+                name:"ActionHeroBiju",
+                path:"video/Malayalam/Actors/NivinPauly/movies/ActionHeroBiju.jpg",
+            },
+            {
+                name:"MinnalMurali",
+                path:"video/Malayalam/Directors/BasilJoseph/movies/MinnalMurali.jpg"
             }
         ]
     },
@@ -316,25 +315,24 @@ const VideoLanguageHome = () => {
         Genre:"Action",
         photos:[
             {
-                name:"KGF",
-                path:"video/Tamil/Action/KGF.jpg"
-            },
-            
-            {
-                name:"Maari2",
-                path:"video/Tamil/Action/Maari2.jpg"
+                name:"Godha",
+                path:"video/Malayalam/Directors/BasilJoseph/movies/Godha.jpg",
             },
             {
-                name:"Mahaan",
-                path:"video/Tamil/Action/Mahaan.jpg"
+                name:"Antony",
+                path:"video/Malayalam/Directors/Joshiy/movies/Antony.jpg",
             },
             {
-                name:"Vikram",
-                path:"video/Tamil/Action/Vikram.jpg"
+                name:"DoubleBarrel",
+                path:"video/Malayalam/Directors/SantoshSivan/movies/DoubleBarrel.jpg"
             },
             {
-                name:"Vikram-Vedha",
-                path:"video/Tamil/Action/Vikram-Vedha.jpg"
+                name:"Kotthu",
+                path:"video/Malayalam/Directors/Ranjith/movies/Kotthu.jpg"
+            },
+            {
+                name:"Drishyam",
+                path:"video/Malayalam/Actors/Mohanlal/movies/Drishyam.jpg",
             }
         ]
     }
