@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 
 import DynamicImageBox from '../Components/DynamicImageBox';
 import Header from '../Components/Header';
+import ImageSlider from '../Components/ImageSlider';
 
 const VideoLanguageHome = () => {
   let {lang}=useParams(); 
@@ -351,10 +352,15 @@ const VideoLanguageHome = () => {
     navigate(`/Video/${name}`);
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
+
   return (
     <> 
     <Header />
-    <div className='total-music-home'>
+    <div className='total-music-home'>        
+        <ImageSlider lang={lang}/>
         {
         
         (currentLanguage || []).map((e,k)=>(

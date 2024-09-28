@@ -6,6 +6,8 @@ import DynamicImageDisplay from '../Components/DynamicImageDisplay'
 import { useNavigate, useParams } from 'react-router-dom';
 import Header from '../Components/Header';
 
+import '../Styles/celebrityMoviePage.css'
+
 const CelebrityMoviePage = () => {
 
 
@@ -894,23 +896,27 @@ In addition to her film career, Samantha has gained recognition for her fashion 
     navigate(`/Video/${name}`);
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
+
 
   return (
     <>
     <Header />
-    <div className='music-person-page'>
-      <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
-      <div className='music-person-page-body'>
-          <div className='total-music-body'>
+    <div className='movie-person-page'>
+    <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
+      <div className='movie-person-page-body'>
+          <div className='total-movie-body'>
           <h1>{celebrity.name}</h1>
-          <div className='img-with-desc' style={{"width":"1200px"}}>
+          <div className='movie-img-with-desc'>
               <DynamicImageDisplay path={celebrity.path} />
               <div>
-                <p>{celebrity.about.length>1750?celebrity.about.substring(0,1750)+".....":celebrity.about}</p>
+                <p>{celebrity.about.length>1750?celebrity.about.substring(0,1850)+".....":celebrity.about}</p>
               </div>
           </div>
 
-          <div className='total-audio-box'>
+          <div className='total-movie-box'>
                 <DynamicImageBox list={[{photos:celebrity.movies}]} goToPage={goToPage} />
           </div>
         </div>

@@ -1,5 +1,5 @@
 .music-person-page{
-    margin-top: 200px;
+    margin-top: 130px;
 }
 
 .music-person-page-body{
@@ -19,10 +19,11 @@
 }
 
 .img-with-desc{
+    width:1350px;
+    background-color: #122c34b1;
     display: flex;
-    width: 1000px;
+    justify-content: space-between;
     text-wrap: wrap;
-    margin-top: 100px;
     text-align: justify;
     font-size: 19px;
     padding: 20px;
@@ -30,15 +31,15 @@
 }
 
 .img-with-desc img{
-    height: 380px;
-    width: 250px;
-    margin-right: 20px;
+    width: 360px;
+    height: 530px;
     border-radius: 15px;
-    border: 2px solid rgba(0, 0, 0, 0.348);
     object-fit: cover;
 }
 
 .img-with-desc p{
+    margin-top: 20px;
+    max-width: 880px;
     background-color: rgba(73, 96, 104, 0.681);
     padding: 15px;
     border-radius: 15px;
@@ -48,9 +49,8 @@
 .total-audio-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
-    overflow: visible;
 }
 
 .total-audio-box audio{
@@ -61,16 +61,133 @@
 .audio-head h1{
     text-align: center;
     font-size: 50px;
-    color: aliceblue;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.total-songs{
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .songs{
     display: flex;
-    justify-content: center;
+    height: 180px;
+    width: 881px;
     align-items: center;
     flex-direction: column;
-    width: 400px;
     padding: 30px;
-    background-color: rgba(255, 255, 255, 0.256);
     border-radius: 15px;
+    overflow-x:scroll;
+    
+}
+
+.songs::-webkit-scrollbar {
+    display: none;
+}
+
+.songs audio{
+    min-height: 60px;
+    min-width: 880px;
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
+}
+
+audio {
+    height: 50px;
+    width: 100%; /* Set the width as needed */
+    background-color: transparent; /* Background color of the audio player */
+    border: 1px solid transparent; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Customize the control elements (requires webkit prefix for Safari) */
+audio::-webkit-media-controls-panel {
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    outline-style: none;
+    outline: 0px;
+    border-color: transparent;
+    outline-color: transparent;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
+    background-color: #1E294D; /* Background color of the control panel */
+    transition: background-color 0.3s ease; /* Transition for background color */
+}
+
+audio::-webkit-media-controls-panel:hover {
+    background-color: #253B5B; /* Darker background on hover */
+}
+
+audio::-webkit-media-controls-play-button {
+    border-radius: 50%;
+    background-color: #f0f0f0; /* Background color of the play button */
+    color: #1E294D; /* Play button color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for hover */
+}
+
+audio::-webkit-media-controls-play-button:hover {
+    background-color: #1E294D; /* Change background on hover */
+    color: #f0f0f0; /* Change color on hover */
+}
+
+audio::-webkit-media-controls-volume-slider {
+    background-color: #1E294D; /* Volume slider background */
+    transition: background-color 0.3s ease; /* Transition for background */
+}
+
+audio::-webkit-media-controls-volume-slider:hover {
+    background-color: #253B5B; /* Darker background on hover */
+}
+
+audio::-webkit-media-controls-mute-button {
+    border-radius: 50%;
+    background-color: #f0f0f0; /* Mute button background */
+    color: #1E294D; /* Mute button color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transition for hover */
+}
+
+audio::-webkit-media-controls-mute-button:hover {
+    background-color: #1E294D; /* Change background on hover */
+    color: #f0f0f0; /* Change color on hover */
+}
+
+/* Firefox-specific styles */
+audio::-moz-media-controls {
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
+    background-color: #1E294D; /* Background color for Firefox */
+}
+
+/* General styles for the audio controls */
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #1E294D; /* Current time and remaining time color */
+    transition: color 0.3s ease; /* Transition for color */
+}
+
+audio:hover::-webkit-media-controls-current-time-display,
+audio:hover::-webkit-media-controls-time-remaining-display {
+    color: #f0f0f0; /* Change color on hover */
+}
+
+audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
+    background: #1E294D; /* Volume slider thumb color */
+    transition: background 0.3s ease; /* Transition for thumb color */
+}
+
+audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb:hover {
+    background: #253B5B; /* Darker thumb color on hover */
 }

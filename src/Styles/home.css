@@ -8,6 +8,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.spot-total h1{
+    font-size: 50px;
+    color: #A2E1F5;
+}
+
+.spot-total p{
+    color: #A2E1F5;
+    text-align: center;
+    font-size: 18px;
 }
 
 .spot-home-div1{

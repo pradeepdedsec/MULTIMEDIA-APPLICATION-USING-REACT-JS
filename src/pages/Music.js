@@ -242,35 +242,51 @@ In addition to her film career, Samantha has gained recognition for her fashion 
       }
     },[tname])
 
+    useEffect(() => {
+      window.scrollTo(0, 0); // Scrolls to the top of the page
+    }, []);
+
     
 
   return (
     <>
     <Header />
     <div className='music-person-page'>
+    <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
       <div className='music-person-page-body'>
           <div className='total-music-body'>
-          <h1>{currentActor.name}</h1>
-          <div className='img-with-desc' style={{"width":"1200px"}}>
-              <DynamicImageDisplay path={currentActor.imgPath} />
+          
+          <div className='img-with-desc' style={{}}>
+
               <div>
-                <p>{currentActor.about.length>1750?currentActor.about.substring(0,1750)+".....":currentActor.about}</p>
+                <DynamicImageDisplay path={currentActor.imgPath} />
               </div>
-          </div>
 
-          <div className='total-audio-box'>
-            <div className='songs'>
-                <div className='audio-head'>
-                  <h1>Songs</h1>
+              <div className='total-songs'>
+                <div>
+                <h1>{currentActor.name}</h1>
+                <p>{currentActor.about.length>500?currentActor.about.substring(0,500)+".....":currentActor.about}</p>
+              </div>
+
+              <div className='total-audio-box'>
+                    <div className='audio-head'>
+                      <h1>{currentActor.name} Songs</h1>
+                    </div>
+                <div className='songs'>
+                    {
+                      currentActor.songs.map((e)=>(
+                        <DynamicAudioDisplay path={e} />
+                      ))
+                    }
                 </div>
-                {
-                  currentActor.songs.map((e)=>(
-                    <DynamicAudioDisplay path={e} />
-                  ))
-                }
-            </div>
+              </div>
+              
+              
 
           </div>
+          </div>
+
+          
         </div>
       </div>     
     </div>

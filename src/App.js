@@ -18,7 +18,7 @@ import Video from './pages/Video';
 function App() {
   return (
     <div className="App">
-      <img className='background' src={require("./media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
+      {/*<img className='background' src={require("./media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />*/}
       <Routes>
         <Route path="/" element={<Login/>}/ >
         <Route path="/Home" element={<Home/>}/ >

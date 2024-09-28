@@ -130,10 +130,15 @@ const VideoHome = () => {
   const goToPage=(name)=>{
     navigate(`/CelebrityMoviePage/${name}`);
 }
+
+useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
   return (
     <>
     <Header />
-    <div className='total-video-home'>  
+    <div className='total-video-home'>
+    <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />  
         <div className="select-container">
             <select className="custom-select" onChange={(e)=> navigate(`/VideoLanguageHome/${e.target.value}`)}>
                 <option>Select-Language</option>

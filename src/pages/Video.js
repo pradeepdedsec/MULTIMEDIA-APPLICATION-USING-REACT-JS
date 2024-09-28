@@ -145,7 +145,7 @@ const Video = () => {
       name:"Salim",
       path:"video/Tamil/Actors/VijayAntony/movies/Salim.jpg",
       desc:`Salim (2014) is a Tamil action-drama directed by N.V. Nirmal Kumar, starring Vijay Antony in the lead role. The film tells the story of Salim, a young man who becomes entangled in a dangerous world of crime and corruption while trying to help his family and loved ones. As he gets deeper into the criminal underworld, he faces moral dilemmas and struggles to maintain his integrity. Salim is known for its engaging narrative, Vijay Antony's strong performance, and its exploration of themes related to crime and justice. The film’s soundtrack, composed by Vijay Antony, complements its dramatic and action-packed moments.`,
-      link:"https://www.youtube.com/embed/vuYfgo-D5H8?si=8M1aHiJYmtZZsvZ5"
+      link:"https://www.youtube.com/embed/AAySneF6sbw?si=rZuDCCve9yqpEsTf"
     });
   
   
@@ -1338,10 +1338,16 @@ const Video = () => {
     setCurrentMovie(movies.get(name));
   },[name])
 
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
+
   return (
     <>
     <Header />
     <div className="video-totalbox">
+    <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
       <div className='video-person-page'>
         <div  className='movie-img'>
             <DynamicImageDisplay name={currentMovie.name} path={currentMovie.path} />

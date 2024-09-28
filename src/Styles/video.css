@@ -6,8 +6,7 @@
 }
 
 .video-totalbox{
-    
-    margin-top: 100px;
+    margin-top: 80px;
     height: 100%;
     width: 100%;
     display: flex;
@@ -17,9 +16,13 @@
 }
 
 .video-person-page{
+    background-color: #122c34b1;
     margin-top: 50px;
     display: flex;
     width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
     justify-content: space-around;
 }
 

@@ -7,13 +7,12 @@
 }
 
 .total-scroll-box{
-    margin-bottom: 100px;
     width: 1300px;
 }
 
 .scroll-box-head{
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 10px;
     font-size: 50px;
 }
 

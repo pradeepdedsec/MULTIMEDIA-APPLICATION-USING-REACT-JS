@@ -193,10 +193,15 @@ const MusicHome = () => {
         navigate(`/Music/${name}`);
     }
 
+    useEffect(() => {
+        window.scrollTo(0, 0); // Scrolls to the top of the page
+      }, []);
+
     return (
         <>
         <Header/>
         <div className='total-music-home'>
+        <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
             <DynamicImageBox list={list} goToPage={goToPage} />
         </div>
         </>
