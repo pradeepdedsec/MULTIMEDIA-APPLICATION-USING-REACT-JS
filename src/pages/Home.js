@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import Music from "../media/images/home/Music.png"
-import Video from "../media/images/home/Video.png"
+import Movies from "../media/images/home/Movies.png"
 import { Link } from 'react-router-dom'
 import '../Styles/home.css'
 import {  useAuth } from '../App'
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div className='spot-home-div1'>
                 <Link to={"/MusicHome"}><img  className='dynamic-img' src={Music} alt="music" /></Link>
-                <Link to={"/VideoHome"}><img className='dynamic-img' src={Video} alt="video" /></Link>
+                <Link to={"/VideoHome"}><img className='dynamic-img' src={Movies} alt="video" /></Link>
             </div>
         </div>
 

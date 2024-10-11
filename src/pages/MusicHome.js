@@ -284,7 +284,7 @@ const MusicHome = () => {
 
     return (
         <>
-        <Header/>
+        <Header path='Home'/>
         <div className='total-music-home'>
         <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
             <DynamicImageBox list={list} goToPage={goToPage} />

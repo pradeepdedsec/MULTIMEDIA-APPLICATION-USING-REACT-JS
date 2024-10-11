@@ -38,6 +38,7 @@
 }
 
 .img-with-desc p{
+    font-size: 15px;
     margin-top: 20px;
     max-width: 880px;
     background-color: rgba(73, 96, 104, 0.681);
@@ -74,7 +75,7 @@
 
 .songs{
     display: flex;
-    height: 180px;
+    height: 220px;
     width: 881px;
     align-items: center;
     flex-direction: column;
@@ -229,6 +230,7 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb:hover {
   }
   
   .audio-player button {
+    width: 45px;
     background-color: #1e294d;
     border: none;
     color: #A2E1F5; /* Dark Slate Blue */

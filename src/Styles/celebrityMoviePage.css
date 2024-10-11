@@ -39,6 +39,10 @@
     object-fit: cover;
 }
 
+.desc-box{
+    height: 400px;
+}
+
 .movie-img-with-desc p{
     max-width: 880px;
     background-color: rgba(73, 96, 104, 0.681);

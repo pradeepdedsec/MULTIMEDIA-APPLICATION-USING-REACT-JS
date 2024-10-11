@@ -358,7 +358,7 @@ const VideoLanguageHome = () => {
 
   return (
     <> 
-    <Header />
+    <Header path='VideoHome' />
     <div className='total-music-home'>        
         <ImageSlider lang={lang}/>
         {

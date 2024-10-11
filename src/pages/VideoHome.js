@@ -135,7 +135,7 @@ useEffect(() => {
   }, []);
   return (
     <>
-    <Header />
+    <Header path='Home' />
     <div className='total-video-home'>
     <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />  
         <div className="select-container">

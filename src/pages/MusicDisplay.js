@@ -6,7 +6,7 @@ const MusicDisplay = ({name,path,about,songs}) => {
 
   return (
     <div>
-        <Header />
+        <Header path='MusicHome' />
         <div className='music-person-page-body'>
             {name==="Samantha"?
                 <>

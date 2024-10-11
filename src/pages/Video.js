@@ -1345,7 +1345,7 @@ const Video = () => {
 
   return (
     <>
-    <Header />
+    <Header path='VideoHome'/>
     <div className="video-totalbox">
     <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
       <div className='video-person-page'>
@@ -1355,7 +1355,7 @@ const Video = () => {
 
         <div className='total-desc-yt'>
               <div className='movie-desc'>
-                   <p>{currentMovie.desc.length>770?currentMovie.desc.substring(0,770)+".....":currentMovie.desc}</p>
+                   <p>{currentMovie.desc.length>530?currentMovie.desc.substring(0,530)+".....":currentMovie.desc}</p>
               </div>
 
               <div className='movie-yt'>
