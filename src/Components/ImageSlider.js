@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import '../Styles/imageSlider.css'; // Import CSS for styling
-import DynamicSliderImageDisplay from './DynamicSliderImageDisplay';
+import DynamicImageDisplay from './DynamicImageDisplay';
 
 
 
@@ -88,7 +88,7 @@ const ImageSlider = ({lang}) => {
                             <img src={require(`../media/images/Loading/SliderLoading.gif`)} style={{objectFit:"cover"}} alt={"Loading.gif"} />
                         </div>
                         :
-                        <DynamicSliderImageDisplay name={image} path={image}/>
+                        <DynamicImageDisplay name={image} path={image}/>
                     }
                     
                 </div>
