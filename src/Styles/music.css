@@ -76,7 +76,7 @@
 .songs{
     display: flex;
     height: 220px;
-    width: 881px;
+    width: 850px;
     align-items: center;
     flex-direction: column;
     padding: 30px;
