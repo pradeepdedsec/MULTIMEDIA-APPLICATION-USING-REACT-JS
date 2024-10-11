@@ -83,9 +83,9 @@ const ImageSlider = ({lang}) => {
                     className={`slide ${index === currentIndex ? 'active' : ''}`}
                 >
                     {
-                    image==="Loading/Loading.gif"?
+                    image==="Loading/SliderLoading.gif"?
                         <div className='slider-img-crop'>
-                            <img src={require(`../media/images/Loading/SliderLoading.gif`)} style={{objectFit:"contain"}} alt={"Loading.gif"} />
+                            <img src={require(`../media/images/Loading/SliderLoading.gif`)} style={{objectFit:"cover"}} alt={"Loading.gif"} />
                         </div>
                         :
                         <DynamicSliderImageDisplay name={image} path={image}/>

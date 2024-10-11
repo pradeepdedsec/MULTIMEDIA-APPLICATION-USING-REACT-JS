@@ -33,5 +33,5 @@
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     border-radius: 10px; /* Rounded corners for the image */
-    object-fit:fill;
+    object-fit:cover;
 }
