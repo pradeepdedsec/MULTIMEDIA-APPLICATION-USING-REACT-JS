@@ -4,7 +4,7 @@ import { useAuth } from '../App';
 
 const SignUp = () => {
 
-    let {checkUser, regUser, setPendingUsername, setPendingPassword} =useAuth();
+    let {checkUser, setPendingUsername, setPendingPassword} =useAuth();
 
     const navigate=useNavigate();
 

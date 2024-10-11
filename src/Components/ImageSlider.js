@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import '../Styles/imageSlider.css'; // Import CSS for styling
-import DynamicImageDisplay from './DynamicImageDisplay';
+import DynamicSliderImageDisplay from './DynamicSliderImageDisplay';
 
 
 
@@ -85,10 +85,10 @@ const ImageSlider = ({lang}) => {
                     {
                     image==="Loading/Loading.gif"?
                         <div className='img-crop'>
-                            <img src={require(`../media/images/Loading/Loading2.gif`)} style={{objectFit:"contain"}} alt={"Loading.gif"} />
+                            <img src={require(`../media/images/Loading/SliderLoading.gif`)} style={{objectFit:"contain"}} alt={"Loading.gif"} />
                         </div>
                         :
-                        <DynamicImageDisplay name={image} path={image}/>
+                        <DynamicSliderImageDisplay name={image} path={image}/>
                     }
                     
                 </div>

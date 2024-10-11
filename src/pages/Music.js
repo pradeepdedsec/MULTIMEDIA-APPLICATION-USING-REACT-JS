@@ -500,7 +500,7 @@ const Music = () => {
 
   return (
     <>
-    <Header />
+    <Header path='MusicHome' />
     <div className='music-person-page'>
     <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
       <div className='music-person-page-body'>
@@ -519,9 +519,7 @@ const Music = () => {
               </div>
 
               <div className='total-audio-box'>
-                    <div className='audio-head'>
-                      <h1>{currentActor.name} Songs</h1>
-                    </div>
+                    
                 <div className='songs'>
                     {
                       currentActor.songs.map((e)=>(

@@ -903,7 +903,7 @@ In addition to her film career, Samantha has gained recognition for her fashion 
 
   return (
     <>
-    <Header />
+    <Header path='VideoHome' />
     <div className='movie-person-page'>
     <img className='background' src={require("../media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
       <div className='movie-person-page-body'>

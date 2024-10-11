@@ -19,7 +19,7 @@ const DynamicAudioDisplay = ({path,name}) => {
   return (
     <div className="audio-player">
       {" "}<FaHeadphonesAlt />
-      <span className="song-name">{(path.split("/")[2]+"").includes(".mp3")?path.split("/")[2].replace(".mp3","").replace("_"," "):path.split("/")[2]?path.split("/")[2].replace("_"," "):path.split("/")[2]}</span>
+      <span className="song-name">{(path.split("/")[2]+"").includes(".mp3")?path.split("/")[2].replace(".mp3","").replaceAll("_"," "):path.split("/")[2]?path.split("/")[2].replaceAll("_"," "):path.split("/")[2]}</span>
       <audio ref={audioRef} src={require(`../media/audio/${path}`)} preload="auto" />
       <button onClick={handlePlayPause}>
         <i className={`fas ${isPlaying ? 'fa-pause' : 'fa-play'}`}></i>
