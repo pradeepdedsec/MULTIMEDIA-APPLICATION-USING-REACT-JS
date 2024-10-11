@@ -513,10 +513,10 @@ const Music = () => {
               </div>
 
               <div className='total-songs'>
-                <div>
-                <h1>{currentActor.name}</h1>
-                <p>{currentActor.about.length>500?currentActor.about.substring(0,500)+".....":currentActor.about}</p>
-              </div>
+                <div className='total-songs-name-p'>
+                  <h1>{currentActor.name}</h1>
+                  <p>{currentActor.about.length>600?currentActor.about.substring(0,600)+".....":currentActor.about}</p>
+                </div>
 
               <div className='total-audio-box'>
                     
