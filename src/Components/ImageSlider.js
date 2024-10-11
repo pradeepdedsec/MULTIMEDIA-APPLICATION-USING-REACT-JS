@@ -10,7 +10,7 @@ const ImageSlider = ({lang}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const [images,setImages] =useState([
-        'Loading/Loading.gif',
+        'Loading/SliderLoading.gif',
     ]);
 
     require("../media/images/video/Tamil/Slider/Vikram.jpg")
@@ -84,7 +84,7 @@ const ImageSlider = ({lang}) => {
                 >
                     {
                     image==="Loading/Loading.gif"?
-                        <div className='img-crop'>
+                        <div className='slider-img-crop'>
                             <img src={require(`../media/images/Loading/SliderLoading.gif`)} style={{objectFit:"contain"}} alt={"Loading.gif"} />
                         </div>
                         :
