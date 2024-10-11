@@ -10,16 +10,7 @@ const ImageSlider = ({lang}) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const [images,setImages] =useState([
-        'video/Tamil/Slider/Vikram.jpg',
-        'video/Tamil/Slider/Garudan.jpg',
-        'video/Tamil/Slider/Romeo.webp',
-        'video/Tamil/Slider/Asuran.jpg',
-        'video/Tamil/Slider/Kappan.jpg',
-        'video/Tamil/Slider/Anjan.jpg',
-        'video/Tamil/Slider/Kaththi2.jpg',
-        'video/Tamil/Slider/Thunivu.jpg',
-        'video/Tamil/Slider/Kaththi.jpg',
-        'video/Tamil/Slider/Rudhran.webp'
+        'Loading/Loading.gif',
     ]);
 
     require("../media/images/video/Tamil/Slider/Vikram.jpg")
@@ -91,7 +82,15 @@ const ImageSlider = ({lang}) => {
                     key={index}
                     className={`slide ${index === currentIndex ? 'active' : ''}`}
                 >
-                    <DynamicImageDisplay name={image} path={image}/>
+                    {
+                    image==="Loading/Loading.gif"?
+                        <div className='img-crop'>
+                            <img src={require(`../media/images/Loading/Loading2.gif`)} style={{objectFit:"contain"}} alt={"Loading.gif"} />
+                        </div>
+                        :
+                        <DynamicImageDisplay name={image} path={image}/>
+                    }
+                    
                 </div>
             ))}
         </div>

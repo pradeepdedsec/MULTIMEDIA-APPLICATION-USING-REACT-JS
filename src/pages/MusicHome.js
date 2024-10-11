@@ -68,6 +68,64 @@ const MusicHome = () => {
         },
 
 
+
+        {
+            Genre:"Play Back Singers",
+            photos:[
+                {
+                    name:"Hariharan",
+                    path:"Loading/Loading.gif"
+                },
+                
+                {
+                    name:"PradeepKumar",
+                    path:"Loading/Loading.gif"
+                },
+                {
+                    name:"S.P.B",
+                    path:"Loading/Loading.gif"
+                },
+                {
+                    name:"Shankar_Mahadevan",
+                    path:"Loading/Loading.gif"
+                },
+                {
+                    name:"Sidsriram",
+                    path:"Loading/Loading.gif"
+                },
+        
+            ]
+        },
+
+        {
+            Genre:"Lyricists",
+            photos:[
+                {
+                    name:"Na.Muthukumar",
+                    path:"Loading/Loading.gif"
+                },
+                
+                {
+                    name:"Pa.Vijay",
+                    path:"Loading/Loading.gif"
+                },
+                {
+                    name:"Vaali",
+                    path:"Loading/Loading.gif"
+                },
+                {
+                    name:"Vairamuthu",
+                    path:"Loading/Loading.gif"
+                },
+                {
+                    name:"Vivek",
+                    path:"Loading/Loading.gif"
+                },
+        
+            ]
+        },
+
+
         {
             Genre:"English Artists",
             photos:[
@@ -155,31 +213,58 @@ const MusicHome = () => {
                 
                     ]
                 },
-        
-        
+
                 {
-                    Genre:"English Artists",
+                    Genre:"Play Back Singers",
                     photos:[
                         {
-                            name:"BillieElish",
-                            path:"MusicHome/BillieElish.jpg"
+                            name:"Hariharan",
+                            path:"MusicHome/Hariharan.jpg"
                         },
                         
                         {
-                            name:"Olivia",
-                            path:"MusicHome/Olivia.jpg"
+                            name:"PradeepKumar",
+                            path:"MusicHome/PradeepKumar.jpg"
                         },
                         {
-                            name:"MJ",
-                            path:"MusicHome/MJ.jpg"
+                            name:"S.P.B",
+                            path:"MusicHome/S.P.B.jpg"
                         },
                         {
-                            name:"Shakira",
-                            path:"MusicHome/Shakira.jpg"
+                            name:"Shankar_Mahadevan",
+                            path:"MusicHome/ShankarMahadevan.jpeg"
                         },
                         {
-                            name:"Eminem",
-                            path:"MusicHome/Eminem.jpg"
+                            name:"Sidsriram",
+                            path:"MusicHome/Sidsriram.webp"
+                        },
+                
+                    ]
+                },
+        
+                {
+                    Genre:"Lyricists",
+                    photos:[
+                        {
+                            name:"Na.Muthukumar",
+                            path:"MusicHome/Na.MuthuKumar.jpg"
+                        },
+                        
+                        {
+                            name:"Pa.Vijay",
+                            path:"MusicHome/Pa.Vijay.jpeg"
+                        },
+                        {
+                            name:"Vaali",
+                            path:"MusicHome/Vaali.jpg"
+                        },
+                        {
+                            name:"Vairamuthu",
+                            path:"MusicHome/Vairamuthu.webp"
+                        },
+                        {
+                            name:"Vivek",
+                            path:"MusicHome/Vivek.jpg"
                         },
                 
                     ]

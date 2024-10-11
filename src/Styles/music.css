@@ -81,7 +81,7 @@
     padding: 30px;
     border-radius: 15px;
     overflow-x:scroll;
-    
+    background-color: #1E294D;
 }
 
 .songs::-webkit-scrollbar {
@@ -103,7 +103,12 @@ audio {
     height: 50px;
     width: 100%; /* Set the width as needed */
     background-color: transparent; /* Background color of the audio player */
-    border: 1px solid transparent; /* Border color */
+    outline-offset: none;
+    outline-width: 0px;
+    outline: none;
+    border: 0px;
+    border-width:0px;
+    box-sizing: 0px;
     border-radius: 5px; /* Rounded corners */
 }
 
@@ -191,3 +196,52 @@ audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
 audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb:hover {
     background: #253B5B; /* Darker thumb color on hover */
 }
+
+
+/*---------------------------------------------*/
+
+.song-name{
+    margin-left: 20px;
+}
+
+
+.audio-player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 735px;
+    margin: 20px auto;
+    padding: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #A2E1F5;
+  }
+  
+  .audio-player .song-name {
+    font-size: 16px;
+    color: #333;
+    flex-grow: 1;
+  }
+  
+  .audio-player button {
+    background-color: #1e294d;
+    border: none;
+    color: #A2E1F5; /* Dark Slate Blue */
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: color 0.3s ease;
+  }
+  
+  .audio-player button:hover {
+    color: #A2E1F5;
+  }
+  
+  .audio-player button:focus {
+    outline: none;
+  }
+  
+  

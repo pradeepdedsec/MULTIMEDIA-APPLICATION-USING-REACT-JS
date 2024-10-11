@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const PasswordUpdated = () => {
 
@@ -7,9 +7,12 @@ const PasswordUpdated = () => {
 
 
   return (
-    <div>
-        <h1>Password Updated Successfully</h1>
-        <button onClick={()=>navigate("/Login")}>Go to Home Page</button>
+    <div className='welcome-outer'>
+      <div className="card" style={{height:"130px",width:"300px"}}>
+        <h2 className="card-title">SPOTSTAR</h2>
+        <p className="card-content">Password Updated Successfully</p>
+        <Link to="/Login"  className="card-button">Go to Login</Link>
+      </div>
     </div>
   )
 }

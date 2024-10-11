@@ -77,58 +77,57 @@ const VideoHome = () => {
             Genre:"New Movies",
             photos:[
                 {
-                    name:"Surya",
-                    path:"MusicHome/Surya.png"
+                    name:"Garudan",
+                    path:"video/Tamil/New Release/garudan.jpeg"
                 },
                 {
-                    name:"Samantha",
-                    path:"MusicHome/Samantha.jfif"
+                    name:"Goat",
+                    path:"video/Tamil/New Release/goat.jpeg"
                 },
                 {
-                    name:"Vijay",
-                    path:"MusicHome/Vijay.jpg"
+                    name:"Indian2",
+                    path:"video/Tamil/New Release/indian2.jpg"
                 },
                 {
-                    name:"Vikram",
-                    path:"MusicHome/Vikram.jpg"
+                    name:"Maharaja",
+                    path:"video/Tamil/New Release/maharaja.jpg"
                 },
                 {
-                    name:"Nazriya",
-                    path:"MusicHome/Nazriya.jpg"
+                    name:"viduthalai",
+                    path:"video/Tamil/Directors/vetrimaran/movies/viduthalai.jpg"
                 },
-        
             ]
         },
         {
           Genre:"Upcoming Movies",
           photos:[
-              {
-                  name:"Surya",
-                  path:"MusicHome/Surya.png"
-              },
-              {
-                  name:"Samantha",
-                  path:"MusicHome/Samantha.jfif"
-              },
-              {
-                  name:"Vijay",
-                  path:"MusicHome/Vijay.jpg"
-              },
-              {
-                  name:"Vikram",
-                  path:"MusicHome/Vikram.jpg"
-              },
-              {
-                  name:"Nazriya",
-                  path:"MusicHome/Nazriya.jpg"
-              },
+            {
+                name:"DoctorDoom",
+                path:"video/English/Actors/RobertDowney/movies/DoctorDoom.jpg"
+            },
+            {
+                name:"TheGoatLife",
+                path:"video/Malayalam/Directors/Blessy/movies/TheGoatLife.jpg"
+            },
+            {
+                name:"DeadpoolandWolverine",
+                path:"video/English/New Release/DeadpoolandWolverine.jpg"
+            },
+            {
+                name:"Star",
+                path:"video/Tamil/New Release/star.jpg"
+            },
+            {
+                name:"FastandFurious",
+                path:"video/English/Actors/Jason/movies/FastandFurious.jpg"
+            },
       
           ]
       },
       ])
   },[])
   const goToPage=(name)=>{
-    navigate(`/CelebrityMoviePage/${name}`);
+    navigate(`/Video/${name}`);
 }
 
 useEffect(() => {

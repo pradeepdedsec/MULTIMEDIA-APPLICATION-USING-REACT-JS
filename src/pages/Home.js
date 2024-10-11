@@ -1,8 +1,19 @@
-import React from 'react'
+import React,{useContext,useEffect,useState} from 'react'
 import { Link } from 'react-router-dom'
 import '../Styles/home.css'
+import { AuthContext, useAuth } from '../App'
 
 const Home = () => {
+
+  let {currentUser} =useAuth();
+
+  const [username,setUsername]=useState("");
+
+  useEffect(()=>{
+    setUsername(currentUser);
+  },[currentUser])
+
+  
 
   return (
     <>
@@ -10,7 +21,7 @@ const Home = () => {
 
         <div className='spot-total'>
             <div>
-              <h1>Welcome to Spotstar</h1>
+              <h1>Welcome, {username}</h1>
               <p>Choose your  favorite spot and get ready to explore!</p>
             </div>
             <div className='spot-home-div1'>

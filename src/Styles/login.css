@@ -31,6 +31,12 @@
     border-radius: 25px;
 }
 
+.submit-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .login-input-box input{
     width: 280px;
     margin: 10px;
