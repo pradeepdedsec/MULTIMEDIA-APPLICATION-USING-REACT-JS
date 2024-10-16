@@ -340,7 +340,6 @@ const VideoLanguageHome = () => {
   ]);
 
     setCurrentLanguage(langMap.get(lang));
-    console.log(langMap.get(lang)[0].Genre)
   },[lang])
 
   const goToPage1=(name)=>{

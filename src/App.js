@@ -36,9 +36,9 @@ function App() {
     return false;
   }
 
-  function displayAccountsInConsole() {
-    console.log(users);
-  }
+  //function displayAccountsInConsole() {
+    //console.log(users);
+  //}
 
    const regUser=(username,password)=>{
       if(!checkUser(username)){
@@ -74,7 +74,7 @@ function App() {
 
   
   return (
-    <AuthContext.Provider value={{displayAccountsInConsole, pendingUsername,pendingPassword,setPendingUsername,setPendingPassword,currentUser,setCurrentUser,checkUser,regUser,verfiyCredentials,updatePassword}}>
+    <AuthContext.Provider value={{pendingUsername,pendingPassword,setPendingUsername,setPendingPassword,currentUser,setCurrentUser,checkUser,regUser,verfiyCredentials,updatePassword}}>
           <div className="App">
             <img className='background' src={require("./media/images/backgroundImage/Leonardo_Phoenix_A_dramatic_highcontrast_background_image_for_2.jpg")} alt="" />
             <Routes>

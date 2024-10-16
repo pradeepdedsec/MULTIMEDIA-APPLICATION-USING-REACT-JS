@@ -888,10 +888,8 @@ In addition to her film career, Samantha has gained recognition for her fashion 
   
 
     setCelebrity(currentCelebrity.get(celeb));
-    console.log("celeb "+celeb);
   },[celeb]);
     
-  console.log("celeb "+celeb);
   const goToPage=(name)=>{
     navigate(`/Video/${name}`);
   }

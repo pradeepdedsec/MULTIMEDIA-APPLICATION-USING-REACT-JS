@@ -1334,7 +1334,6 @@ const Video = () => {
   
 
 
-    console.log(movies.get(name).path);
     setCurrentMovie(movies.get(name));
   },[name])
 

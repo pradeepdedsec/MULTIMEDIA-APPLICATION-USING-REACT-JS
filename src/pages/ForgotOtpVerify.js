@@ -16,9 +16,7 @@ const ForgotOtpVerify = () => {
     };
 
     const handleSubmit=()=>{
-      console.log(otp+" "+generatedOTP+" "+otp.toString === generatedOTP.toString);
       if(Number(otp) === Number(generatedOTP)){
-        console.log("welcome");
         navigate("/NewPassword");
       }
       else{

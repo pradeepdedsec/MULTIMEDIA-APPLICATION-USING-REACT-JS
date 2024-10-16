@@ -3,7 +3,6 @@ import "../Styles/dynamicImageBox.css";
 import DynamicImageClick from './DynamicImageClick'
 
 const DynamicImageBox = ({list,goToPage}) => {
-    console.log("dynamic"+list);
 
     const[dynamicList,setDynamicList]=useState([
 

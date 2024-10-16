@@ -21,7 +21,6 @@ const Login = () => {
   const auth=(e)=>{
 
     e.preventDefault();
-    console.log("here")
     
     if(checkUser(username)){
       if(verfiyCredentials(username,password)){
@@ -57,7 +56,7 @@ const Login = () => {
               </div>
           </form>
 
-          <p>Are you new user <Link to="/SignUp"><b>Sign up</b></Link></p>
+          <p>Are you new user <Link to="/SignUp">Sign up</Link></p>
         </div>
       </div>
     </div>
