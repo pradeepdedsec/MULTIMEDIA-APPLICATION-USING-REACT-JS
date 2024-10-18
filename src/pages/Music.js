@@ -23,11 +23,16 @@ const Music = () => {
                 "Acting and music relate in that they are both about capturing feelings and 
                 moments as accurately as you can," she shares.`,
       songs:[
-        `lisa/As if it's your last lisa rap lyrics.mp3`,
-        `lisa/BLACKPINK - Pink Venom rap part.mp3`,
-        `anime/Fujii Kaze - SHINUNOGA E-WA Lyrical WhatsApp status.mp3`,
-        `lisa/LALISA lyrics_Baby get the Megaphone put it on speaker, All BLIИKS  love lisa.mp3`,
-        `lisa/Lisa Rap Lyrics in Shoong.mp3`
+        `Actors/Surya/Ava_Enna_Enna.mp3`,
+        `Actors/Surya/Bang_Bang_Bang.mp3`,
+        `Actors/Surya/Dammaku_Dammaku.mp3`,
+        `Actors/Surya/Ek_Do_Theen.mp3`,
+        `Actors/Surya/Ennai_Konjam.mp3`,
+        `Actors/Surya/Kaal_Mulaitha_Poovae.mp3`,
+        `Actors/Surya/Kaalam_Yen_Kadhali.mp3`,
+        `Actors/Surya/Kadhal_Aasai.mp3`,
+        `Actors/Surya/Mundhinam_Parthene.mp3`,
+        `Actors/Surya/Naani_Koni.mp3`
       ]
     });
 
